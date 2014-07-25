@@ -13,6 +13,39 @@ namespace DesktopGuide
         public MyForm()
         {
             InitializeComponent();
+        }        
+
+        private void prevButton_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Retry;
+            this.Close();
+        }
+
+        protected void NoSlideButtons()
+        {
+            this.NextButton.Visible = false;
+            this.prevButton.Visible = false;
+        }
+
+        protected void MoveToSlide(MyForm f)
+        {
+            this.Hide();
+            switch (f.ShowDialog())
+            {
+                case DialogResult.Cancel:
+                    this.Close();
+                    break;
+
+                case DialogResult.Retry:
+                    this.Show();
+                    break;
+            }
+        }
+
+        protected void ShowDialog(MyForm f)
+        {
+            f.NoSlideButtons();
+            f.ShowDialog();
         }
     }
 }

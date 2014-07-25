@@ -112,9 +112,52 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InRoomPinnedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomPinnedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fa_Audio_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomLockedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomLockedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomFullSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomFullSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fa_Contact_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contact List.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fa_Main_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guide.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserOnlineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserOnlineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fa_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login Page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserOfflineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserOfflineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="legacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\legacy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserBusySmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserBusySmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fa_Camera_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camera Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

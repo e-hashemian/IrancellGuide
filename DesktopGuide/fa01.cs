@@ -10,18 +10,19 @@ namespace DesktopGuide
 {
     public partial class fa01 : MyForm
     {
-        public fa01()
+        public fa01()            
         {
             InitializeComponent();
-
-            q1.Image = Program.LoadQuastionImage();
-            q2.Image = q1.Image;
-            login.Image = Program.LoadImage("login");
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void NextButton_Click(object sender, EventArgs e)
         {
+            MoveToSlide(new fa02());
+        }
 
+        private void q2_Click(object sender, EventArgs e)
+        {
+            ShowDialog(new fa02());            
         }
     }
 }

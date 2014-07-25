@@ -10,16 +10,14 @@ using System.Drawing.Drawing2D;
 
 namespace DesktopGuide.Controls
 {
-    public partial class Arrow : UserControl
+    public class Arrow : UserControl
     {
         private Pen pen = new Pen(Color.Black, 1);
         private AdjustableArrowCap cap = new AdjustableArrowCap(5, 5, false);
         private bool secondaryDiagonal = false;
 
         public Arrow()
-        {
-            InitializeComponent();
-
+        {            
             pen.CustomEndCap = cap;
             pen.StartCap = LineCap.Flat;
             BackColor = Color.Transparent;

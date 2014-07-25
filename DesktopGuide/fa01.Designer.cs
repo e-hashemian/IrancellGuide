@@ -27,18 +27,11 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
-        {                                    
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa01));
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.q1 = new System.Windows.Forms.PictureBox();
-            this.q2 = new System.Windows.Forms.PictureBox();
             this.accolade1 = new DesktopGuide.Controls.Accolade();
-            this.arrow1 = new DesktopGuide.Controls.Arrow();
-            this.login = new System.Windows.Forms.PictureBox();
-            this.arrow2 = new DesktopGuide.Controls.Arrow();
-            this.arrow3 = new DesktopGuide.Controls.Arrow();
-            this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -47,8 +40,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).BeginInit();
+            this.q2 = new System.Windows.Forms.PictureBox();
+            this.q1 = new System.Windows.Forms.PictureBox();
+            this.login = new System.Windows.Forms.PictureBox();
+            this.arrow1 = new DesktopGuide.Controls.Arrow();
+            this.arrow2 = new DesktopGuide.Controls.Arrow();
+            this.arrow3 = new DesktopGuide.Controls.Arrow();
+            this.arrow4 = new DesktopGuide.Controls.Arrow();
             ((System.ComponentModel.ISupportInitialize)(this.q2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.q1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).BeginInit();
             this.login.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,14 @@
             // label1
             // 
             this.label1.Text = "راهنمای صفحه ورود به نرم افزار";
+            // 
+            // NextButton
+            // 
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
+            // 
+            // prevButton
+            // 
+            this.prevButton.Visible = false;
             // 
             // label2
             // 
@@ -66,7 +74,6 @@
             this.label2.Size = new System.Drawing.Size(348, 229);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -79,28 +86,6 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "جهت مشاهده راهنمای بخشهایی که جلوی علامت        هستند، روی علامت کلیک کنید.";
             // 
-            // q1
-            // 
-            this.q1.ImageLocation = "C:\\Users\\Lotfali\\Documents\\Visual Studio 2013\\Projects\\DesktopGuide\\DesktopGuide\\" +
-    "bin\\Debug\\GuideImages\\q.png";
-            this.q1.Location = new System.Drawing.Point(494, 557);
-            this.q1.Name = "q1";
-            this.q1.Size = new System.Drawing.Size(27, 26);
-            this.q1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.q1.TabIndex = 5;
-            this.q1.TabStop = false;
-            // 
-            // q2
-            // 
-            this.q2.ImageLocation = "C:\\Users\\Lotfali\\Documents\\Visual Studio 2013\\Projects\\DesktopGuide\\DesktopGuide\\" +
-    "bin\\Debug\\GuideImages\\q.png";
-            this.q2.Location = new System.Drawing.Point(306, 109);
-            this.q2.Name = "q2";
-            this.q2.Size = new System.Drawing.Size(27, 26);
-            this.q2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.q2.TabIndex = 6;
-            this.q2.TabStop = false;
-            // 
             // accolade1
             // 
             this.accolade1._LineWidth = 1F;
@@ -111,82 +96,6 @@
             this.accolade1.Name = "accolade1";
             this.accolade1.Size = new System.Drawing.Size(8, 27);
             this.accolade1.TabIndex = 7;
-            // 
-            // arrow1
-            // 
-            this.arrow1._CapSize = 10F;
-            this.arrow1._FilledCap = false;
-            this.arrow1._LineWidth = 1F;
-            this.arrow1._RightToLeft = true;
-            this.arrow1._SecondaryDiagonal = false;
-            this.arrow1._transparentParent = this.login;
-            this.arrow1.BackColor = System.Drawing.Color.Transparent;
-            this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(260, 216);
-            this.arrow1.Name = "arrow1";
-            this.arrow1.Size = new System.Drawing.Size(46, 21);
-            this.arrow1.TabIndex = 8;
-            // 
-            // login
-            // 
-            this.login.BackColor = System.Drawing.Color.Transparent;
-            this.login.Controls.Add(this.arrow1);
-            this.login.Controls.Add(this.arrow2);
-            this.login.Controls.Add(this.arrow3);
-            this.login.Controls.Add(this.arrow4);
-            this.login.ImageLocation = "C:\\Users\\Lotfali\\Documents\\Visual Studio 2013\\Projects\\DesktopGuide\\DesktopGuide\\" +
-    "bin\\Debug\\GuideImages\\login.png";
-            this.login.Location = new System.Drawing.Point(18, 79);
-            this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(311, 509);
-            this.login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.login.TabIndex = 20;
-            this.login.TabStop = false;
-            // 
-            // arrow2
-            // 
-            this.arrow2._CapSize = 10F;
-            this.arrow2._FilledCap = false;
-            this.arrow2._LineWidth = 1F;
-            this.arrow2._RightToLeft = true;
-            this.arrow2._SecondaryDiagonal = false;
-            this.arrow2._transparentParent = this.login;
-            this.arrow2.BackColor = System.Drawing.Color.Transparent;
-            this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow2.Location = new System.Drawing.Point(262, 278);
-            this.arrow2.Name = "arrow2";
-            this.arrow2.Size = new System.Drawing.Size(46, 16);
-            this.arrow2.TabIndex = 9;
-            // 
-            // arrow3
-            // 
-            this.arrow3._CapSize = 10F;
-            this.arrow3._FilledCap = false;
-            this.arrow3._LineWidth = 1F;
-            this.arrow3._RightToLeft = true;
-            this.arrow3._SecondaryDiagonal = false;
-            this.arrow3._transparentParent = this.login;
-            this.arrow3.BackColor = System.Drawing.Color.Transparent;
-            this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow3.Location = new System.Drawing.Point(260, 348);
-            this.arrow3.Name = "arrow3";
-            this.arrow3.Size = new System.Drawing.Size(46, 16);
-            this.arrow3.TabIndex = 10;
-            // 
-            // arrow4
-            // 
-            this.arrow4._CapSize = 10F;
-            this.arrow4._FilledCap = false;
-            this.arrow4._LineWidth = 1F;
-            this.arrow4._RightToLeft = true;
-            this.arrow4._SecondaryDiagonal = false;
-            this.arrow4._transparentParent = this.login;
-            this.arrow4.BackColor = System.Drawing.Color.Transparent;
-            this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow4.Location = new System.Drawing.Point(233, 447);
-            this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(91, 16);
-            this.arrow4.TabIndex = 11;
             // 
             // label5
             // 
@@ -280,6 +189,104 @@
             this.label11.TabIndex = 19;
             this.label11.Text = "-4";
             // 
+            // q2
+            // 
+            this.q2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.q2.Image = global::DesktopGuide.Properties.Resources.Guide;
+            this.q2.ImageLocation = "";
+            this.q2.Location = new System.Drawing.Point(306, 109);
+            this.q2.Name = "q2";
+            this.q2.Size = new System.Drawing.Size(27, 26);
+            this.q2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.q2.TabIndex = 6;
+            this.q2.TabStop = false;
+            this.q2.Click += new System.EventHandler(this.q2_Click);
+            // 
+            // q1
+            // 
+            this.q1.Image = global::DesktopGuide.Properties.Resources.Guide;
+            this.q1.Location = new System.Drawing.Point(494, 557);
+            this.q1.Name = "q1";
+            this.q1.Size = new System.Drawing.Size(27, 26);
+            this.q1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.q1.TabIndex = 5;
+            this.q1.TabStop = false;
+            // 
+            // login
+            // 
+            this.login.BackColor = System.Drawing.Color.Transparent;
+            this.login.Controls.Add(this.arrow1);
+            this.login.Controls.Add(this.arrow2);
+            this.login.Controls.Add(this.arrow3);
+            this.login.Controls.Add(this.arrow4);
+            this.login.Image = global::DesktopGuide.Properties.Resources.Fa_Login_Page;
+            this.login.Location = new System.Drawing.Point(18, 79);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(311, 509);
+            this.login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.login.TabIndex = 20;
+            this.login.TabStop = false;
+            // 
+            // arrow1
+            // 
+            this.arrow1._CapSize = 10F;
+            this.arrow1._FilledCap = false;
+            this.arrow1._LineWidth = 1F;
+            this.arrow1._RightToLeft = true;
+            this.arrow1._SecondaryDiagonal = false;
+            this.arrow1._transparentParent = this.login;
+            this.arrow1.BackColor = System.Drawing.Color.Transparent;
+            this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow1.Location = new System.Drawing.Point(260, 216);
+            this.arrow1.Name = "arrow1";
+            this.arrow1.Size = new System.Drawing.Size(46, 21);
+            this.arrow1.TabIndex = 8;
+            // 
+            // arrow2
+            // 
+            this.arrow2._CapSize = 10F;
+            this.arrow2._FilledCap = false;
+            this.arrow2._LineWidth = 1F;
+            this.arrow2._RightToLeft = true;
+            this.arrow2._SecondaryDiagonal = false;
+            this.arrow2._transparentParent = this.login;
+            this.arrow2.BackColor = System.Drawing.Color.Transparent;
+            this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow2.Location = new System.Drawing.Point(262, 278);
+            this.arrow2.Name = "arrow2";
+            this.arrow2.Size = new System.Drawing.Size(46, 16);
+            this.arrow2.TabIndex = 9;
+            // 
+            // arrow3
+            // 
+            this.arrow3._CapSize = 10F;
+            this.arrow3._FilledCap = false;
+            this.arrow3._LineWidth = 1F;
+            this.arrow3._RightToLeft = true;
+            this.arrow3._SecondaryDiagonal = false;
+            this.arrow3._transparentParent = this.login;
+            this.arrow3.BackColor = System.Drawing.Color.Transparent;
+            this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow3.Location = new System.Drawing.Point(260, 348);
+            this.arrow3.Name = "arrow3";
+            this.arrow3.Size = new System.Drawing.Size(46, 16);
+            this.arrow3.TabIndex = 10;
+            // 
+            // arrow4
+            // 
+            this.arrow4._CapSize = 10F;
+            this.arrow4._FilledCap = false;
+            this.arrow4._LineWidth = 1F;
+            this.arrow4._RightToLeft = true;
+            this.arrow4._SecondaryDiagonal = false;
+            this.arrow4._transparentParent = this.login;
+            this.arrow4.BackColor = System.Drawing.Color.Transparent;
+            this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow4.Location = new System.Drawing.Point(233, 447);
+            this.arrow4.Name = "arrow4";
+            this.arrow4.Size = new System.Drawing.Size(91, 16);
+            this.arrow4.TabIndex = 11;
+            // 
             // fa01
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -299,7 +306,6 @@
             this.Controls.Add(this.login);
             this.Name = "fa01";
             this.Controls.SetChildIndex(this.login, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.q1, 0);
@@ -313,8 +319,11 @@
             this.Controls.SetChildIndex(this.label9, 0);
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.label11, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).EndInit();
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.NextButton, 0);
+            this.Controls.SetChildIndex(this.prevButton, 0);
             ((System.ComponentModel.ISupportInitialize)(this.q2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.q1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).EndInit();
             this.login.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -322,7 +331,7 @@
 
         }
 
-        #endregion        
+        #endregion
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;

@@ -10,14 +10,13 @@ using System.Drawing.Drawing2D;
 
 namespace DesktopGuide.Controls
 {
-    public partial class Accolade : UserControl
+    public class Accolade : UserControl
     {
         private Pen pen = new Pen(Color.Black, 1);
         private bool rtl = false;
 
         public Accolade()
-        {
-            InitializeComponent();
+        {            
             BackColor = Color.Transparent;
         }
 

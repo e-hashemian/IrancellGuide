@@ -57,12 +57,13 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
-            this.myButton2 = new DesktopGuide.Controls.MyButton();
+            this.label23 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +78,7 @@
             this.label2.Location = new System.Drawing.Point(335, 83);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(408, 508);
+            this.label2.Size = new System.Drawing.Size(408, 475);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -408,6 +409,23 @@
             this.main.TabIndex = 20;
             this.main.TabStop = false;
             // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.main;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(144, 463);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(72, 20);
+            this.myButton2.TabIndex = 38;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            // 
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
@@ -485,26 +503,22 @@
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
-            // myButton2
+            // label23
             // 
-            this.myButton2._transparentParent = this.main;
-            this.myButton2.BackColor = System.Drawing.Color.Transparent;
-            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton2.FlatAppearance.BorderSize = 2;
-            this.myButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.myButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton2.Location = new System.Drawing.Point(144, 463);
-            this.myButton2.Name = "myButton2";
-            this.myButton2.Size = new System.Drawing.Size(72, 20);
-            this.myButton2.TabIndex = 38;
-            this.myButton2.UseVisualStyleBackColor = false;
-            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label23.ForeColor = System.Drawing.Color.Blue;
+            this.label23.Location = new System.Drawing.Point(300, 567);
+            this.label23.Name = "label23";
+            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label23.Size = new System.Drawing.Size(488, 24);
+            this.label23.TabIndex = 38;
+            this.label23.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
             // 
             // fa02
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -564,6 +578,7 @@
             this.Controls.SetChildIndex(this.label21, 0);
             this.Controls.SetChildIndex(this.label22, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
+            this.Controls.SetChildIndex(this.label23, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -607,6 +622,7 @@
         private Controls.Arrow arrow6;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
+        private System.Windows.Forms.Label label23;
     }
 }
 

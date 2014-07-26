@@ -38,6 +38,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow6 = new DesktopGuide.Controls.Arrow();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
@@ -45,18 +46,15 @@
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
-            this.q1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -169,6 +167,21 @@
             this.main.TabIndex = 20;
             this.main.TabStop = false;
             // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.main;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(22, 444);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(254, 52);
+            this.myButton2.TabIndex = 49;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            // 
             // arrow6
             // 
             this.arrow6._CapSize = 10F;
@@ -274,27 +287,6 @@
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
-            // q1
-            // 
-            this.q1.Image = global::DesktopGuide.Properties.Resources.Guide;
-            this.q1.Location = new System.Drawing.Point(494, 556);
-            this.q1.Name = "q1";
-            this.q1.Size = new System.Drawing.Size(27, 26);
-            this.q1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.q1.TabIndex = 39;
-            this.q1.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label6.Location = new System.Drawing.Point(319, 556);
-            this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(453, 24);
-            this.label6.TabIndex = 38;
-            this.label6.Text = "جهت مشاهده راهنمای بخشهایی که جلوی علامت        هستند، روی علامت کلیک کنید.";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -350,21 +342,6 @@
             this.label14.TabIndex = 48;
             this.label14.Text = "6";
             // 
-            // myButton2
-            // 
-            this.myButton2._transparentParent = this.main;
-            this.myButton2.BackColor = System.Drawing.Color.Transparent;
-            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton2.FlatAppearance.BorderSize = 2;
-            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton2.Location = new System.Drawing.Point(22, 444);
-            this.myButton2.Name = "myButton2";
-            this.myButton2.Size = new System.Drawing.Size(254, 52);
-            this.myButton2.TabIndex = 49;
-            this.myButton2.UseVisualStyleBackColor = false;
-            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -376,17 +353,28 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label6.ForeColor = System.Drawing.Color.Blue;
+            this.label6.Location = new System.Drawing.Point(300, 567);
+            this.label6.Name = "label6";
+            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label6.Size = new System.Drawing.Size(488, 24);
+            this.label6.TabIndex = 50;
+            this.label6.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
+            // 
             // fa03
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.q1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -408,17 +396,15 @@
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
-            this.Controls.SetChildIndex(this.label6, 0);
-            this.Controls.SetChildIndex(this.q1, 0);
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label12, 0);
             this.Controls.SetChildIndex(this.label13, 0);
             this.Controls.SetChildIndex(this.label14, 0);
             this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -435,8 +421,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox main;
-        private System.Windows.Forms.PictureBox q1;
-        private System.Windows.Forms.Label label6;
         private Controls.Arrow arrow6;
         private Controls.Arrow arrow5;
         private Controls.Arrow arrow4;
@@ -451,6 +435,7 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -41,16 +41,16 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.q2 = new System.Windows.Forms.PictureBox();
-            this.q1 = new System.Windows.Forms.PictureBox();
             this.login = new System.Windows.Forms.PictureBox();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.q2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).BeginInit();
             this.login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -202,16 +202,6 @@
             this.q2.TabStop = false;
             this.q2.Click += new System.EventHandler(this.q2_Click);
             // 
-            // q1
-            // 
-            this.q1.Image = global::DesktopGuide.Properties.Resources.Guide;
-            this.q1.Location = new System.Drawing.Point(494, 557);
-            this.q1.Name = "q1";
-            this.q1.Size = new System.Drawing.Size(27, 26);
-            this.q1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.q1.TabIndex = 5;
-            this.q1.TabStop = false;
-            // 
             // login
             // 
             this.login.BackColor = System.Drawing.Color.Transparent;
@@ -287,9 +277,22 @@
             this.arrow4.Size = new System.Drawing.Size(91, 16);
             this.arrow4.TabIndex = 11;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::DesktopGuide.Properties.Resources.Guide;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(495, 556);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(27, 26);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // fa01
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -300,7 +303,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.q2);
             this.Controls.Add(this.accolade1);
-            this.Controls.Add(this.q1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.login);
@@ -308,7 +310,6 @@
             this.Controls.SetChildIndex(this.login, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label4, 0);
-            this.Controls.SetChildIndex(this.q1, 0);
             this.Controls.SetChildIndex(this.accolade1, 0);
             this.Controls.SetChildIndex(this.q2, 0);
             this.Controls.SetChildIndex(this.label5, 0);
@@ -322,10 +323,11 @@
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.NextButton, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
+            this.Controls.SetChildIndex(this.pictureBox1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.q2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.q1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).EndInit();
             this.login.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -335,7 +337,6 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox q1;
         private System.Windows.Forms.PictureBox q2;
         private Controls.Accolade accolade1;
         private Controls.Arrow arrow1;
@@ -351,6 +352,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox login;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

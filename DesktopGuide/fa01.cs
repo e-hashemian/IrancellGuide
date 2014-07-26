@@ -22,7 +22,7 @@ namespace DesktopGuide
 
         private void q2_Click(object sender, EventArgs e)
         {
-            ShowDialog(new fa02());            
+            ShowDialog(new fa02());
         }
     }
 }

@@ -68,7 +68,7 @@
             // 
             // NextButton
             // 
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);            
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // label2
             // 
@@ -76,7 +76,7 @@
             this.label2.Location = new System.Drawing.Point(373, 100);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(370, 406);
+            this.label2.Size = new System.Drawing.Size(370, 415);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 

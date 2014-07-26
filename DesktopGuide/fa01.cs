@@ -10,19 +10,19 @@ namespace DesktopGuide
 {
     public partial class fa01 : MyForm
     {
-        public fa01()            
+        public fa01()
         {
             InitializeComponent();
         }
 
-        private void NextButton_Click(object sender, EventArgs e)
+        private void myButton1_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa02());
         }
 
-        private void q2_Click(object sender, EventArgs e)
+        private void myButton2_Click(object sender, EventArgs e)
         {
-            ShowDialog(new fa02());
+            MoveToSlide(new fa02());
         }
     }
 }

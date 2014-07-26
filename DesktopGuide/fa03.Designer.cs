@@ -44,31 +44,24 @@
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
+            this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.q1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.accolade1 = new DesktopGuide.Controls.Accolade();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.accolade2 = new DesktopGuide.Controls.Accolade();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.q1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Text = "راهنمای سربرگ لیست مخاطبین";
-            // 
-            // NextButton
-            // 
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // label2
             // 
@@ -160,12 +153,14 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton2);
             this.main.Controls.Add(this.arrow6);
             this.main.Controls.Add(this.arrow5);
             this.main.Controls.Add(this.arrow4);
             this.main.Controls.Add(this.arrow3);
             this.main.Controls.Add(this.arrow2);
             this.main.Controls.Add(this.arrow1);
+            this.main.Controls.Add(this.myButton1);
             this.main.Image = global::DesktopGuide.Properties.Resources.Fa_Contact_List;
             this.main.Location = new System.Drawing.Point(19, 85);
             this.main.Name = "main";
@@ -264,6 +259,21 @@
             this.arrow1.Size = new System.Drawing.Size(54, 21);
             this.arrow1.TabIndex = 44;
             // 
+            // myButton1
+            // 
+            this.myButton1._transparentParent = this.main;
+            this.myButton1.BackColor = System.Drawing.Color.Transparent;
+            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderSize = 2;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.Location = new System.Drawing.Point(22, 1);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(254, 120);
+            this.myButton1.TabIndex = 49;
+            this.myButton1.UseVisualStyleBackColor = false;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
+            // 
             // q1
             // 
             this.q1.Image = global::DesktopGuide.Properties.Resources.Guide;
@@ -284,52 +294,6 @@
             this.label6.Size = new System.Drawing.Size(453, 24);
             this.label6.TabIndex = 38;
             this.label6.Text = "جهت مشاهده راهنمای بخشهایی که جلوی علامت        هستند، روی علامت کلیک کنید.";
-            // 
-            // accolade1
-            // 
-            this.accolade1._LineWidth = 1F;
-            this.accolade1._RightToLeft = true;
-            this.accolade1.BackColor = System.Drawing.Color.Transparent;
-            this.accolade1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.accolade1.Location = new System.Drawing.Point(294, 90);
-            this.accolade1.Name = "accolade1";
-            this.accolade1.Size = new System.Drawing.Size(10, 107);
-            this.accolade1.TabIndex = 40;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::DesktopGuide.Properties.Resources.Guide;
-            this.pictureBox1.Location = new System.Drawing.Point(305, 129);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 26);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 41;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // accolade2
-            // 
-            this.accolade2._LineWidth = 1F;
-            this.accolade2._RightToLeft = true;
-            this.accolade2.BackColor = System.Drawing.Color.Transparent;
-            this.accolade2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.accolade2.Location = new System.Drawing.Point(294, 533);
-            this.accolade2.Name = "accolade2";
-            this.accolade2.Size = new System.Drawing.Size(10, 42);
-            this.accolade2.TabIndex = 42;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::DesktopGuide.Properties.Resources.Guide;
-            this.pictureBox2.Location = new System.Drawing.Point(304, 542);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 26);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 43;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label7
             // 
@@ -386,18 +350,41 @@
             this.label14.TabIndex = 48;
             this.label14.Text = "6";
             // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.main;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(22, 444);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(254, 52);
+            this.myButton2.TabIndex = 49;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(557, 507);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 32);
+            this.button1.TabIndex = 49;
+            this.button1.Text = "شرح تمام آیکون های وضعیت افراد";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // fa03
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.accolade2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.accolade1);
             this.Controls.Add(this.q1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label16);
@@ -410,7 +397,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.main);
             this.Name = "fa03";
-            this.Load += new System.EventHandler(this.fa02_Load);
             this.Controls.SetChildIndex(this.main, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
@@ -422,23 +408,17 @@
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
-            this.Controls.SetChildIndex(this.NextButton, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.q1, 0);
-            this.Controls.SetChildIndex(this.accolade1, 0);
-            this.Controls.SetChildIndex(this.pictureBox1, 0);
-            this.Controls.SetChildIndex(this.accolade2, 0);
-            this.Controls.SetChildIndex(this.pictureBox2, 0);
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label12, 0);
             this.Controls.SetChildIndex(this.label13, 0);
             this.Controls.SetChildIndex(this.label14, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.q1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -457,10 +437,6 @@
         private System.Windows.Forms.PictureBox main;
         private System.Windows.Forms.PictureBox q1;
         private System.Windows.Forms.Label label6;
-        private Controls.Accolade accolade1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Controls.Accolade accolade2;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private Controls.Arrow arrow6;
         private Controls.Arrow arrow5;
         private Controls.Arrow arrow4;
@@ -472,6 +448,9 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private Controls.MyButton myButton1;
+        private Controls.MyButton myButton2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

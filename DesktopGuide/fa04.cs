@@ -11,18 +11,8 @@ namespace DesktopGuide
     public partial class fa04 : MyForm
     {
         public fa04()
-        {            
-            InitializeComponent();                        
+        {
+            InitializeComponent();
         }
-
-        private void fa02_Load(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void NextButton_Click(object sender, EventArgs e)
-        {
-            MoveToSlide(new fa05());
-        }        
     }
 }

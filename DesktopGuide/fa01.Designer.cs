@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa01));
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.accolade1 = new DesktopGuide.Controls.Accolade();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -40,14 +39,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.q2 = new System.Windows.Forms.PictureBox();
             this.login = new System.Windows.Forms.PictureBox();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
+            this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.q2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).BeginInit();
             this.login.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,10 +55,6 @@
             // label1
             // 
             this.label1.Text = "راهنمای صفحه ورود به نرم افزار";
-            // 
-            // NextButton
-            // 
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // prevButton
             // 
@@ -85,17 +80,6 @@
             this.label4.Size = new System.Drawing.Size(453, 24);
             this.label4.TabIndex = 4;
             this.label4.Text = "جهت مشاهده راهنمای بخشهایی که جلوی علامت        هستند، روی علامت کلیک کنید.";
-            // 
-            // accolade1
-            // 
-            this.accolade1._LineWidth = 1F;
-            this.accolade1._RightToLeft = true;
-            this.accolade1.BackColor = System.Drawing.Color.Transparent;
-            this.accolade1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.accolade1.Location = new System.Drawing.Point(293, 109);
-            this.accolade1.Name = "accolade1";
-            this.accolade1.Size = new System.Drawing.Size(8, 27);
-            this.accolade1.TabIndex = 7;
             // 
             // label5
             // 
@@ -189,26 +173,15 @@
             this.label11.TabIndex = 19;
             this.label11.Text = "-4";
             // 
-            // q2
-            // 
-            this.q2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.q2.Image = global::DesktopGuide.Properties.Resources.Guide;
-            this.q2.ImageLocation = "";
-            this.q2.Location = new System.Drawing.Point(306, 109);
-            this.q2.Name = "q2";
-            this.q2.Size = new System.Drawing.Size(27, 26);
-            this.q2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.q2.TabIndex = 6;
-            this.q2.TabStop = false;
-            this.q2.Click += new System.EventHandler(this.q2_Click);
-            // 
             // login
             // 
             this.login.BackColor = System.Drawing.Color.Transparent;
+            this.login.Controls.Add(this.myButton2);
             this.login.Controls.Add(this.arrow1);
             this.login.Controls.Add(this.arrow2);
             this.login.Controls.Add(this.arrow3);
             this.login.Controls.Add(this.arrow4);
+            this.login.Controls.Add(this.myButton1);
             this.login.Image = global::DesktopGuide.Properties.Resources.Fa_Login_Page;
             this.login.Location = new System.Drawing.Point(18, 79);
             this.login.Name = "login";
@@ -216,6 +189,21 @@
             this.login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.login.TabIndex = 20;
             this.login.TabStop = false;
+            // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.login;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(42, 435);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(218, 44);
+            this.myButton2.TabIndex = 22;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
             // arrow1
             // 
@@ -272,10 +260,25 @@
             this.arrow4._transparentParent = this.login;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow4.Location = new System.Drawing.Point(233, 447);
+            this.arrow4.Location = new System.Drawing.Point(260, 447);
             this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(91, 16);
+            this.arrow4.Size = new System.Drawing.Size(64, 16);
             this.arrow4.TabIndex = 11;
+            // 
+            // myButton1
+            // 
+            this.myButton1._transparentParent = this.login;
+            this.myButton1.BackColor = System.Drawing.Color.Transparent;
+            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderSize = 2;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.Location = new System.Drawing.Point(25, 3);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(254, 49);
+            this.myButton1.TabIndex = 22;
+            this.myButton1.UseVisualStyleBackColor = false;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
             // pictureBox1
             // 
@@ -301,8 +304,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.q2);
-            this.Controls.Add(this.accolade1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.login);
@@ -310,8 +311,6 @@
             this.Controls.SetChildIndex(this.login, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label4, 0);
-            this.Controls.SetChildIndex(this.accolade1, 0);
-            this.Controls.SetChildIndex(this.q2, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.label7, 0);
@@ -321,10 +320,8 @@
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.NextButton, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
             this.Controls.SetChildIndex(this.pictureBox1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.q2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.login)).EndInit();
             this.login.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -337,8 +334,6 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox q2;
-        private Controls.Accolade accolade1;
         private Controls.Arrow arrow1;
         private Controls.Arrow arrow2;
         private Controls.Arrow arrow3;
@@ -353,6 +348,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox login;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Controls.MyButton myButton1;
+        private Controls.MyButton myButton2;
     }
 }
 

@@ -83,11 +83,7 @@
             // 
             // label1
             // 
-            this.label1.Text = "راهنمای آیکون نمایش وضعیت افراد";
-            // 
-            // NextButton
-            // 
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
+            this.label1.Text = "راهنمای آیکون نمایش وضعیت افراد";            
             // 
             // tableLayoutPanel1
             // 
@@ -518,12 +514,10 @@
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "fa04";
-            this.Load += new System.EventHandler(this.fa02_Load);
+            this.Name = "fa04";            
             this.Controls.SetChildIndex(this.tableLayoutPanel1, 0);
             this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.prevButton, 0);
-            this.Controls.SetChildIndex(this.NextButton, 0);
+            this.Controls.SetChildIndex(this.prevButton, 0);            
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

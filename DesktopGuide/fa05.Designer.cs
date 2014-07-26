@@ -52,6 +52,7 @@
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -59,10 +60,6 @@
             // label1
             // 
             this.label1.Text = "راهنمای پنجره تست میکروفن و بلندگو";
-            // 
-            // NextButton
-            // 
-            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // label2
             // 
@@ -127,8 +124,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 21);
             this.label4.TabIndex = 21;
-            this.label4.Text = "-5";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.Text = "-5";            
             // 
             // label5
             // 
@@ -248,6 +244,7 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton2);
             this.main.Controls.Add(this.arrow5);
             this.main.Controls.Add(this.arrow4);
             this.main.Controls.Add(this.arrow3);
@@ -337,6 +334,21 @@
             this.arrow1.Size = new System.Drawing.Size(70, 21);
             this.arrow1.TabIndex = 44;
             // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.main;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(51, 29);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(113, 40);
+            this.myButton2.TabIndex = 49;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            // 
             // fa05
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -358,8 +370,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.main);
-            this.Name = "fa05";
-            this.Load += new System.EventHandler(this.fa02_Load);
+            this.Name = "fa05";            
             this.Controls.SetChildIndex(this.main, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
@@ -369,7 +380,6 @@
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
-            this.Controls.SetChildIndex(this.NextButton, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.circle1, 0);
             this.Controls.SetChildIndex(this.circle2, 0);
@@ -413,6 +423,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private Controls.MyButton myButton2;
     }
 }
 

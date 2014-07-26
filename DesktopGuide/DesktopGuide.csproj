@@ -32,7 +32,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -71,6 +71,9 @@
     </Compile>
     <Compile Include="Controls\Arrow.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MyButton.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\MyForm.cs">
       <SubType>Form</SubType>

@@ -11,28 +11,23 @@ namespace DesktopGuide
     public partial class fa03 : MyForm
     {
         public fa03()
-        {            
-            InitializeComponent();                        
-        }
-
-        private void fa02_Load(object sender, EventArgs e)
         {
-
+            InitializeComponent();
         }
 
-        private void NextButton_Click(object sender, EventArgs e)
+        private void myButton1_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa02());
+        }
+
+        private void myButton2_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa02());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa04());
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            ShowDialog(new fa02());            
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            ShowDialog(new fa02());
-        }        
     }
 }

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.NextButton = new System.Windows.Forms.Button();
             this.prevButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,20 +44,10 @@
             this.label1.Text = "title";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // NextButton
-            // 
-            this.NextButton.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextButton.Location = new System.Drawing.Point(12, 12);
-            this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(75, 23);
-            this.NextButton.TabIndex = 2;
-            this.NextButton.Text = "بعدی";
-            this.NextButton.UseVisualStyleBackColor = true;
-            // 
             // prevButton
             // 
             this.prevButton.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevButton.Location = new System.Drawing.Point(93, 12);
+            this.prevButton.Location = new System.Drawing.Point(12, 12);
             this.prevButton.Name = "prevButton";
             this.prevButton.Size = new System.Drawing.Size(75, 23);
             this.prevButton.TabIndex = 3;
@@ -71,7 +60,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.NextButton);
             this.Controls.Add(this.prevButton);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -86,7 +74,6 @@
         #endregion
 
         protected internal System.Windows.Forms.Label label1;
-        protected internal System.Windows.Forms.Button NextButton;
         protected internal System.Windows.Forms.Button prevButton;
 
 

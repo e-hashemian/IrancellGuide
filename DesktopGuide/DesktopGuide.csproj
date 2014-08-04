@@ -84,6 +84,30 @@
     <None Include="Controls\MyLabel.cs">
       <SubType>Component</SubType>
     </None>
+    <Compile Include="fa10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa10.Designer.cs">
+      <DependentUpon>fa10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa09.Designer.cs">
+      <DependentUpon>fa09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa08.Designer.cs">
+      <DependentUpon>fa08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa07.Designer.cs">
+      <DependentUpon>fa07.cs</DependentUpon>
+    </Compile>
     <Compile Include="fa06.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +148,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa10.resx">
+      <DependentUpon>fa10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa09.resx">
+      <DependentUpon>fa09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa08.resx">
+      <DependentUpon>fa08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa07.resx">
+      <DependentUpon>fa07.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa06.resx">
       <DependentUpon>fa06.cs</DependentUpon>
@@ -216,6 +252,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Camera Test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slide7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bug Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slide8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Direct Call Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Direct Call Window1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slide9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recent Calls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slide10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Starting Conference.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

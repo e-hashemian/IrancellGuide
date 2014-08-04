@@ -10,17 +10,41 @@ using System.Drawing.Drawing2D;
 
 namespace DesktopGuide.Controls
 {
+
     public class Arrow : UserControl
     {
+        public enum Direction
+        {
+            RightToLeft,
+            LeftToRight,
+            PrimaryDiagonalToButtom,
+            PrimaryDiagonalToTop,
+            SecondaryDiagonalToButtom,
+            SecondaryDiagonalToTop,
+            TopToButtom,
+            ButtomToTop
+        }
+
         private Pen pen = new Pen(Color.Black, 1);
         private AdjustableArrowCap cap = new AdjustableArrowCap(5, 5, false);
-        private bool secondaryDiagonal = false;
+        private Direction dir = Direction.RightToLeft;
 
         public Arrow()
-        {            
+        {
             pen.CustomEndCap = cap;
             pen.StartCap = LineCap.Flat;
-            BackColor = Color.Transparent;            
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x20;
+                return cp;
+            }
         }
 
         #region Properties
@@ -30,21 +54,12 @@ namespace DesktopGuide.Controls
             set { this.Parent = value; }
         }
 
-        public bool _RightToLeft
+        public Direction _Direction
         {
-            get { return pen.StartCap != LineCap.Flat; }
+            get { return dir; }
             set
             {
-                if (value)
-                {
-                    pen.CustomStartCap = cap;
-                    pen.EndCap = LineCap.Flat;
-                }
-                else
-                {
-                    pen.CustomEndCap = cap;
-                    pen.StartCap = LineCap.Flat;
-                }
+                dir = value;
                 Refresh();
             }
         }
@@ -87,16 +102,6 @@ namespace DesktopGuide.Controls
                 Refresh();
             }
         }
-
-        public bool _SecondaryDiagonal
-        {
-            get { return secondaryDiagonal; }
-            set
-            {
-                secondaryDiagonal = value;
-                Refresh();
-            }
-        }
         #endregion
 
         protected override void OnPaint(PaintEventArgs e)
@@ -109,16 +114,47 @@ namespace DesktopGuide.Controls
             endX = Width - (int)pen.Width;
             endY = Height - (int)pen.Width;
 
-            if ((double)Width / Height > 0.5)
-                if ((double)Height / Width > 0.5)
-                    if (secondaryDiagonal)
-                        e.Graphics.DrawLine(pen, endX, startY, startX, endY);
-                    else
-                        e.Graphics.DrawLine(pen, startX, startY, endX, endY);
-                else
+            switch (dir)
+            {
+                case Direction.ButtomToTop:
+                case Direction.PrimaryDiagonalToTop:
+                case Direction.SecondaryDiagonalToTop:
+                case Direction.RightToLeft:
+                    pen.CustomStartCap = cap;
+                    pen.EndCap = LineCap.Flat;
+                    break;
+
+                case Direction.PrimaryDiagonalToButtom:
+                case Direction.SecondaryDiagonalToButtom:
+                case Direction.TopToButtom:
+                case Direction.LeftToRight:
+                    pen.CustomEndCap = cap;
+                    pen.StartCap = LineCap.Flat;
+                    break;
+            }
+
+            switch(dir)
+            {
+                case Direction.SecondaryDiagonalToButtom:
+                case Direction.SecondaryDiagonalToTop:
+                    e.Graphics.DrawLine(pen, endX, startY, startX, endY);
+                    break;
+
+                case Direction.PrimaryDiagonalToButtom:
+                case Direction.PrimaryDiagonalToTop:
+                    e.Graphics.DrawLine(pen, startX, startY, endX, endY);
+                    break;
+
+                case Direction.TopToButtom:
+                case Direction.ButtomToTop:
+                    e.Graphics.DrawLine(pen, Width / 2, startY, Width / 2, endY);                    
+                    break;
+
+                case Direction.LeftToRight:
+                case Direction.RightToLeft:
                     e.Graphics.DrawLine(pen, startX, Height / 2, endX, Height / 2);
-            else
-                e.Graphics.DrawLine(pen, Width / 2, startY, Width / 2, endY);
+                    break;
+            }
         }
 
         protected override void OnResize(EventArgs e)

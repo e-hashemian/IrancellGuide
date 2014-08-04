@@ -279,24 +279,20 @@
             // 
             this.arrow5._CapSize = 10F;
             this.arrow5._FilledCap = false;
-            this.arrow5._LineWidth = 1F;
-            this.arrow5._RightToLeft = true;
-            this.arrow5._SecondaryDiagonal = false;
+            this.arrow5._LineWidth = 1F;            
             this.arrow5._transparentParent = this.main;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
             this.arrow5.Location = new System.Drawing.Point(256, 9);
             this.arrow5.Name = "arrow5";
-            this.arrow5.Size = new System.Drawing.Size(33, 13);
+            this.arrow5.Size = new System.Drawing.Size(33, 11);
             this.arrow5.TabIndex = 44;
             // 
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
             this.arrow4._FilledCap = false;
-            this.arrow4._LineWidth = 1F;
-            this.arrow4._RightToLeft = true;
-            this.arrow4._SecondaryDiagonal = false;
+            this.arrow4._LineWidth = 1F;            
             this.arrow4._transparentParent = this.main;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
@@ -310,8 +306,6 @@
             this.arrow3._CapSize = 10F;
             this.arrow3._FilledCap = false;
             this.arrow3._LineWidth = 1F;
-            this.arrow3._RightToLeft = true;
-            this.arrow3._SecondaryDiagonal = false;
             this.arrow3._transparentParent = this.main;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
@@ -324,9 +318,7 @@
             // 
             this.arrow2._CapSize = 10F;
             this.arrow2._FilledCap = false;
-            this.arrow2._LineWidth = 1F;
-            this.arrow2._RightToLeft = true;
-            this.arrow2._SecondaryDiagonal = false;
+            this.arrow2._LineWidth = 1F;            
             this.arrow2._transparentParent = this.main;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
@@ -339,9 +331,7 @@
             // 
             this.arrow1._CapSize = 10F;
             this.arrow1._FilledCap = false;
-            this.arrow1._LineWidth = 1F;
-            this.arrow1._RightToLeft = true;
-            this.arrow1._SecondaryDiagonal = false;
+            this.arrow1._LineWidth = 1F;            
             this.arrow1._transparentParent = this.main;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;

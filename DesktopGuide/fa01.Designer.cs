@@ -195,25 +195,23 @@
             // arrow1
             // 
             this.arrow1._CapSize = 10F;
+            this.arrow1._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow1._FilledCap = false;
             this.arrow1._LineWidth = 1F;
-            this.arrow1._RightToLeft = true;
-            this.arrow1._SecondaryDiagonal = false;
             this.arrow1._transparentParent = this.login;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(260, 216);
+            this.arrow1.Location = new System.Drawing.Point(260, 220);
             this.arrow1.Name = "arrow1";
-            this.arrow1.Size = new System.Drawing.Size(46, 21);
+            this.arrow1.Size = new System.Drawing.Size(46, 15);
             this.arrow1.TabIndex = 8;
             // 
             // arrow2
             // 
             this.arrow2._CapSize = 10F;
+            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow2._FilledCap = false;
             this.arrow2._LineWidth = 1F;
-            this.arrow2._RightToLeft = true;
-            this.arrow2._SecondaryDiagonal = false;
             this.arrow2._transparentParent = this.login;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
@@ -225,10 +223,9 @@
             // arrow3
             // 
             this.arrow3._CapSize = 10F;
+            this.arrow3._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow3._FilledCap = false;
             this.arrow3._LineWidth = 1F;
-            this.arrow3._RightToLeft = true;
-            this.arrow3._SecondaryDiagonal = false;
             this.arrow3._transparentParent = this.login;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
@@ -240,10 +237,9 @@
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow4._FilledCap = false;
             this.arrow4._LineWidth = 1F;
-            this.arrow4._RightToLeft = true;
-            this.arrow4._SecondaryDiagonal = false;
             this.arrow4._transparentParent = this.login;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;

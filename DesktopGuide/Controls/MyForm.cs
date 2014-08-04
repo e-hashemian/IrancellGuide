@@ -34,6 +34,6 @@ namespace DesktopGuide
                     this.Show();
                     break;
             }
-        }
+        }        
     }
 }

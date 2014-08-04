@@ -73,6 +73,16 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fa_Bug_Report {
+            get {
+                object obj = ResourceManager.GetObject("Fa_Bug_Report", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fa_Camera_Test {
             get {
                 object obj = ResourceManager.GetObject("Fa_Camera_Test", resourceCulture);
@@ -93,6 +103,16 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fa_Direct_Call {
+            get {
+                object obj = ResourceManager.GetObject("Fa_Direct_Call", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fa_Login_Page {
             get {
                 object obj = ResourceManager.GetObject("Fa_Login_Page", resourceCulture);
@@ -106,6 +126,16 @@ namespace DesktopGuide.Properties {
         internal static System.Drawing.Bitmap Fa_Main_Window {
             get {
                 object obj = ResourceManager.GetObject("Fa_Main_Window", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fa_Recent_Calls {
+            get {
+                object obj = ResourceManager.GetObject("Fa_Recent_Calls", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +186,26 @@ namespace DesktopGuide.Properties {
         internal static System.Drawing.Bitmap legacy {
             get {
                 object obj = ResourceManager.GetObject("legacy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Slide10 {
+            get {
+                object obj = ResourceManager.GetObject("Slide10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Starting_Conference {
+            get {
+                object obj = ResourceManager.GetObject("Starting Conference", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

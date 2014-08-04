@@ -113,16 +113,6 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Guide {
-            get {
-                object obj = ResourceManager.GetObject("Guide", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap InRoomFullSmall {
             get {
                 object obj = ResourceManager.GetObject("InRoomFullSmall", resourceCulture);

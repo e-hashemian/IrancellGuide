@@ -20,7 +20,7 @@ namespace DesktopGuide.Controls
         {            
             pen.CustomEndCap = cap;
             pen.StartCap = LineCap.Flat;
-            BackColor = Color.Transparent;
+            BackColor = Color.Transparent;            
         }
 
         #region Properties

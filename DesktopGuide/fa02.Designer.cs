@@ -57,6 +57,11 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
+=======
+            this.myButton4 = new DesktopGuide.Controls.MyButton();
+            this.myButton3 = new DesktopGuide.Controls.MyButton();
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
@@ -195,85 +200,79 @@
             // arrow5
             // 
             this.arrow5._CapSize = 10F;
+            this.arrow5._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow5._FilledCap = false;
             this.arrow5._LineWidth = 1F;
-            this.arrow5._RightToLeft = true;
-            this.arrow5._SecondaryDiagonal = false;
             this.arrow5._transparentParent = this;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow5.Location = new System.Drawing.Point(269, 103);
+            this.arrow5.Location = new System.Drawing.Point(270, 103);
             this.arrow5.Name = "arrow5";
-            this.arrow5.Size = new System.Drawing.Size(12, 25);
+            this.arrow5.Size = new System.Drawing.Size(9, 26);
             this.arrow5.TabIndex = 27;
             // 
             // arrow6
             // 
             this.arrow6._CapSize = 10F;
+            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow6._FilledCap = false;
             this.arrow6._LineWidth = 1F;
-            this.arrow6._RightToLeft = true;
-            this.arrow6._SecondaryDiagonal = false;
             this.arrow6._transparentParent = this;
             this.arrow6.BackColor = System.Drawing.Color.Transparent;
             this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(250, 103);
+            this.arrow6.Location = new System.Drawing.Point(252, 103);
             this.arrow6.Name = "arrow6";
-            this.arrow6.Size = new System.Drawing.Size(12, 25);
+            this.arrow6.Size = new System.Drawing.Size(9, 26);
             this.arrow6.TabIndex = 27;
             // 
             // arrow7
             // 
             this.arrow7._CapSize = 10F;
+            this.arrow7._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow7._FilledCap = false;
             this.arrow7._LineWidth = 1F;
-            this.arrow7._RightToLeft = true;
-            this.arrow7._SecondaryDiagonal = false;
             this.arrow7._transparentParent = this;
             this.arrow7.BackColor = System.Drawing.Color.Transparent;
             this.arrow7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow7.Location = new System.Drawing.Point(231, 103);
+            this.arrow7.Location = new System.Drawing.Point(233, 103);
             this.arrow7.Name = "arrow7";
-            this.arrow7.Size = new System.Drawing.Size(12, 25);
+            this.arrow7.Size = new System.Drawing.Size(9, 26);
             this.arrow7.TabIndex = 27;
             // 
             // arrow8
             // 
             this.arrow8._CapSize = 10F;
+            this.arrow8._Direction = DesktopGuide.Controls.Arrow.Direction.TopToButtom;
             this.arrow8._FilledCap = false;
             this.arrow8._LineWidth = 1F;
-            this.arrow8._RightToLeft = false;
-            this.arrow8._SecondaryDiagonal = false;
             this.arrow8._transparentParent = this;
             this.arrow8.BackColor = System.Drawing.Color.Transparent;
             this.arrow8.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow8.Location = new System.Drawing.Point(120, 505);
+            this.arrow8.Location = new System.Drawing.Point(123, 505);
             this.arrow8.Name = "arrow8";
-            this.arrow8.Size = new System.Drawing.Size(18, 44);
+            this.arrow8.Size = new System.Drawing.Size(12, 44);
             this.arrow8.TabIndex = 27;
             // 
             // arrow9
             // 
             this.arrow9._CapSize = 10F;
+            this.arrow9._Direction = DesktopGuide.Controls.Arrow.Direction.TopToButtom;
             this.arrow9._FilledCap = false;
             this.arrow9._LineWidth = 1F;
-            this.arrow9._RightToLeft = false;
-            this.arrow9._SecondaryDiagonal = false;
             this.arrow9._transparentParent = this;
             this.arrow9.BackColor = System.Drawing.Color.Transparent;
             this.arrow9.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow9.Location = new System.Drawing.Point(190, 503);
+            this.arrow9.Location = new System.Drawing.Point(192, 503);
             this.arrow9.Name = "arrow9";
-            this.arrow9.Size = new System.Drawing.Size(18, 46);
+            this.arrow9.Size = new System.Drawing.Size(12, 46);
             this.arrow9.TabIndex = 27;
             // 
             // arrow10
             // 
             this.arrow10._CapSize = 10F;
+            this.arrow10._Direction = DesktopGuide.Controls.Arrow.Direction.TopToButtom;
             this.arrow10._FilledCap = false;
             this.arrow10._LineWidth = 1F;
-            this.arrow10._RightToLeft = false;
-            this.arrow10._SecondaryDiagonal = false;
             this.arrow10._transparentParent = this;
             this.arrow10.BackColor = System.Drawing.Color.Transparent;
             this.arrow10.ForeColor = System.Drawing.Color.SteelBlue;
@@ -395,6 +394,8 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton4);
+            this.main.Controls.Add(this.myButton3);
             this.main.Controls.Add(this.myButton2);
             this.main.Controls.Add(this.arrow4);
             this.main.Controls.Add(this.arrow3);
@@ -409,6 +410,43 @@
             this.main.TabIndex = 20;
             this.main.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+            // myButton4
+            // 
+            this.myButton4._transparentParent = this.main;
+            this.myButton4.BackColor = System.Drawing.Color.Transparent;
+            this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderSize = 2;
+            this.myButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton4.Location = new System.Drawing.Point(136, 61);
+            this.myButton4.Name = "myButton4";
+            this.myButton4.Size = new System.Drawing.Size(60, 57);
+            this.myButton4.TabIndex = 38;
+            this.myButton4.UseVisualStyleBackColor = false;
+            this.myButton4.Click += new System.EventHandler(this.myButton4_Click);
+            // 
+            // myButton3
+            // 
+            this.myButton3._transparentParent = this.main;
+            this.myButton3.BackColor = System.Drawing.Color.Transparent;
+            this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderSize = 2;
+            this.myButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton3.Location = new System.Drawing.Point(82, 463);
+            this.myButton3.Name = "myButton3";
+            this.myButton3.Size = new System.Drawing.Size(60, 20);
+            this.myButton3.TabIndex = 38;
+            this.myButton3.UseVisualStyleBackColor = false;
+            this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
+            // 
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             // myButton2
             // 
             this.myButton2._transparentParent = this.main;
@@ -429,61 +467,57 @@
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow4._FilledCap = false;
             this.arrow4._LineWidth = 1F;
-            this.arrow4._RightToLeft = true;
-            this.arrow4._SecondaryDiagonal = false;
             this.arrow4._transparentParent = this.main;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow4.Location = new System.Drawing.Point(228, 121);
+            this.arrow4.Location = new System.Drawing.Point(231, 121);
             this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(16, 35);
+            this.arrow4.Size = new System.Drawing.Size(12, 35);
             this.arrow4.TabIndex = 27;
             // 
             // arrow3
             // 
             this.arrow3._CapSize = 10F;
+            this.arrow3._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow3._FilledCap = false;
             this.arrow3._LineWidth = 1F;
-            this.arrow3._RightToLeft = true;
-            this.arrow3._SecondaryDiagonal = false;
             this.arrow3._transparentParent = this.main;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow3.Location = new System.Drawing.Point(157, 121);
+            this.arrow3.Location = new System.Drawing.Point(158, 121);
             this.arrow3.Name = "arrow3";
-            this.arrow3.Size = new System.Drawing.Size(14, 35);
+            this.arrow3.Size = new System.Drawing.Size(12, 35);
             this.arrow3.TabIndex = 27;
             // 
             // arrow2
             // 
             this.arrow2._CapSize = 10F;
+            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow2._FilledCap = false;
             this.arrow2._LineWidth = 1F;
-            this.arrow2._RightToLeft = true;
-            this.arrow2._SecondaryDiagonal = false;
             this.arrow2._transparentParent = this.main;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow2.Location = new System.Drawing.Point(95, 121);
+            this.arrow2.Location = new System.Drawing.Point(96, 121);
             this.arrow2.Name = "arrow2";
-            this.arrow2.Size = new System.Drawing.Size(15, 35);
+            this.arrow2.Size = new System.Drawing.Size(12, 35);
             this.arrow2.TabIndex = 27;
             // 
             // arrow1
             // 
             this.arrow1._CapSize = 10F;
+            this.arrow1._Direction = DesktopGuide.Controls.Arrow.Direction.ButtomToTop;
             this.arrow1._FilledCap = false;
             this.arrow1._LineWidth = 1F;
-            this.arrow1._RightToLeft = true;
-            this.arrow1._SecondaryDiagonal = false;
             this.arrow1._transparentParent = this.main;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(43, 121);
+            this.arrow1.Location = new System.Drawing.Point(46, 121);
             this.arrow1.Name = "arrow1";
-            this.arrow1.Size = new System.Drawing.Size(18, 36);
+            this.arrow1.Size = new System.Drawing.Size(12, 36);
             this.arrow1.TabIndex = 27;
             // 
             // myButton1
@@ -623,6 +657,11 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private System.Windows.Forms.Label label23;
+<<<<<<< HEAD
+=======
+        private Controls.MyButton myButton3;
+        private Controls.MyButton myButton4;
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
     }
 }
 

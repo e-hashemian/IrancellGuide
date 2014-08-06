@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa01));
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -46,6 +45,10 @@
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
+<<<<<<< HEAD
+=======
+            this.label4 = new System.Windows.Forms.Label();
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             ((System.ComponentModel.ISupportInitialize)(this.login)).BeginInit();
             this.login.SuspendLayout();
             this.SuspendLayout();
@@ -68,6 +71,7 @@
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
+<<<<<<< HEAD
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
@@ -80,6 +84,8 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
             // 
+=======
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             // label5
             // 
             this.label5.AutoSize = true;
@@ -207,25 +213,23 @@
             // arrow1
             // 
             this.arrow1._CapSize = 10F;
+            this.arrow1._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow1._FilledCap = false;
             this.arrow1._LineWidth = 1F;
-            this.arrow1._RightToLeft = true;
-            this.arrow1._SecondaryDiagonal = false;
             this.arrow1._transparentParent = this.login;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(260, 216);
+            this.arrow1.Location = new System.Drawing.Point(260, 220);
             this.arrow1.Name = "arrow1";
-            this.arrow1.Size = new System.Drawing.Size(46, 21);
+            this.arrow1.Size = new System.Drawing.Size(46, 15);
             this.arrow1.TabIndex = 8;
             // 
             // arrow2
             // 
             this.arrow2._CapSize = 10F;
+            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow2._FilledCap = false;
             this.arrow2._LineWidth = 1F;
-            this.arrow2._RightToLeft = true;
-            this.arrow2._SecondaryDiagonal = false;
             this.arrow2._transparentParent = this.login;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
@@ -237,10 +241,9 @@
             // arrow3
             // 
             this.arrow3._CapSize = 10F;
+            this.arrow3._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow3._FilledCap = false;
             this.arrow3._LineWidth = 1F;
-            this.arrow3._RightToLeft = true;
-            this.arrow3._SecondaryDiagonal = false;
             this.arrow3._transparentParent = this.login;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
@@ -252,10 +255,9 @@
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow4._FilledCap = false;
             this.arrow4._LineWidth = 1F;
-            this.arrow4._RightToLeft = true;
-            this.arrow4._SecondaryDiagonal = false;
             this.arrow4._transparentParent = this.login;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
@@ -272,16 +274,35 @@
             this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(25, 3);
+            this.myButton1.Location = new System.Drawing.Point(218, 29);
             this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(254, 49);
+            this.myButton1.Size = new System.Drawing.Size(61, 23);
             this.myButton1.TabIndex = 22;
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
+<<<<<<< HEAD
             // fa01
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+=======
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(300, 567);
+            this.label4.Name = "label4";
+            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label4.Size = new System.Drawing.Size(488, 24);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
+            // 
+            // fa01
+            // 
+            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label4);
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -290,13 +311,11 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.login);
             this.Name = "fa01";
             this.Controls.SetChildIndex(this.login, 0);
             this.Controls.SetChildIndex(this.label2, 0);
-            this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.label7, 0);
@@ -307,6 +326,10 @@
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
+<<<<<<< HEAD
+=======
+            this.Controls.SetChildIndex(this.label4, 0);
+>>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             ((System.ComponentModel.ISupportInitialize)(this.login)).EndInit();
             this.login.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -317,7 +340,6 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private Controls.Arrow arrow1;
         private Controls.Arrow arrow2;
         private Controls.Arrow arrow3;
@@ -333,6 +355,7 @@
         private System.Windows.Forms.PictureBox login;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
+        private System.Windows.Forms.Label label4;
     }
 }
 

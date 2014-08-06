@@ -33,12 +33,8 @@ namespace DesktopGuide.Controls
         {
             pen.CustomEndCap = cap;
             pen.StartCap = LineCap.Flat;
-<<<<<<< HEAD
             BackColor = Color.Transparent;            
-=======
-            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
-            BackColor = Color.Transparent;
->>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);            
         }
 
         protected override CreateParams CreateParams

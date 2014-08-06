@@ -39,6 +39,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -61,7 +62,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -83,7 +83,11 @@
             // 
             // label1
             // 
-            this.label1.Text = "راهنمای آیکون نمایش وضعیت افراد";            
+            this.label1.Text = "راهنمای آیکون نمایش وضعیت افراد";
+            // 
+            // prevButton
+            // 
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
             // 
             // tableLayoutPanel1
             // 
@@ -117,8 +121,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33289F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.99933F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33289F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.99933F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.669778F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.95117F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.43737F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(595, 473);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
@@ -126,10 +130,10 @@
             // 
             this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox8.Image = global::DesktopGuide.Properties.Resources.legacy;
-            this.pictureBox8.Location = new System.Drawing.Point(543, 436);
+            this.pictureBox8.Location = new System.Drawing.Point(543, 404);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox8.Size = new System.Drawing.Size(50, 67);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox8.TabIndex = 23;
             this.pictureBox8.TabStop = false;
@@ -141,7 +145,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(543, 344);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 90);
+            this.pictureBox7.Size = new System.Drawing.Size(50, 58);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
@@ -211,9 +215,9 @@
             this.panel8.Controls.Add(this.label9);
             this.panel8.Controls.Add(this.label17);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(5, 439);
+            this.panel8.Location = new System.Drawing.Point(5, 407);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(533, 29);
+            this.panel8.Size = new System.Drawing.Size(533, 61);
             this.panel8.TabIndex = 15;
             // 
             // label9
@@ -224,10 +228,23 @@
             this.label9.Location = new System.Drawing.Point(0, 0);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label9.Size = new System.Drawing.Size(402, 29);
+            this.label9.Size = new System.Drawing.Size(402, 61);
             this.label9.TabIndex = 2;
             this.label9.Text = "پايانه هاي قديمي که از تکنولوژي‌هاي ديگري استفاده مي‌نمايند.";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label17
+            // 
+            this.label17.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label17.Font = new System.Drawing.Font("B Titr", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label17.ForeColor = System.Drawing.Color.Teal;
+            this.label17.Location = new System.Drawing.Point(402, 0);
+            this.label17.Name = "label17";
+            this.label17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label17.Size = new System.Drawing.Size(131, 61);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "دستگاه های قدیمی:";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel7
             // 
@@ -236,7 +253,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(5, 347);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(533, 84);
+            this.panel7.Size = new System.Drawing.Size(533, 52);
             this.panel7.TabIndex = 14;
             // 
             // label8
@@ -247,7 +264,7 @@
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label8.Size = new System.Drawing.Size(308, 84);
+            this.label8.Size = new System.Drawing.Size(358, 52);
             this.label8.TabIndex = 2;
             this.label8.Text = "کاربر در اتاق جلسه خودش است ولی برای ورود به اتاقش رمز عبور گذاشته است. شما در صو" +
     "رت دانستن رمز عبور می توانید وارد اتاقش بشويد. ";
@@ -258,12 +275,12 @@
             this.label16.Dock = System.Windows.Forms.DockStyle.Right;
             this.label16.Font = new System.Drawing.Font("B Titr", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(308, 0);
+            this.label16.Location = new System.Drawing.Point(358, 0);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label16.Size = new System.Drawing.Size(225, 84);
+            this.label16.Size = new System.Drawing.Size(175, 52);
             this.label16.TabIndex = 1;
-            this.label16.Text = "حاضر در اتاق محافظت شده با رمز عبور:";
+            this.label16.Text = "حاضر در اتاق دارای رمز عبور:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel6
@@ -497,27 +514,14 @@
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
-            // label17
-            // 
-            this.label17.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label17.Font = new System.Drawing.Font("B Titr", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label17.ForeColor = System.Drawing.Color.Teal;
-            this.label17.Location = new System.Drawing.Point(402, 0);
-            this.label17.Name = "label17";
-            this.label17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label17.Size = new System.Drawing.Size(131, 29);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "دستگاه های قدیمی:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // fa04
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "fa04";            
+            this.Name = "fa04";
             this.Controls.SetChildIndex(this.tableLayoutPanel1, 0);
             this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.prevButton, 0);            
+            this.Controls.SetChildIndex(this.prevButton, 0);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

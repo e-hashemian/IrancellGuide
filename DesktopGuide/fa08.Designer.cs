@@ -58,7 +58,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +66,10 @@
             // label1
             // 
             this.label1.Text = "راهنمای پنجره تماس مستقیم";
+            // 
+            // prevButton
+            // 
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
             // 
             // label2
             // 
@@ -138,7 +142,7 @@
             this.main.Controls.Add(this.myButton3);
             this.main.Controls.Add(this.myButton1);
             this.main.Controls.Add(this.myButton2);
-            this.main.Image = global::DesktopGuide.Properties.Resources.Fa_Direct_Call;
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Direct_Call_Window;
             this.main.InitialImage = null;
             this.main.Location = new System.Drawing.Point(306, 76);
             this.main.Name = "main";
@@ -155,9 +159,9 @@
             this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton3.Location = new System.Drawing.Point(225, 127);
+            this.myButton3.Location = new System.Drawing.Point(235, 127);
             this.myButton3.Name = "myButton3";
-            this.myButton3.Size = new System.Drawing.Size(233, 321);
+            this.myButton3.Size = new System.Drawing.Size(215, 311);
             this.myButton3.TabIndex = 49;
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
@@ -170,9 +174,9 @@
             this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(204, 4);
+            this.myButton1.Location = new System.Drawing.Point(206, 0);
             this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(254, 120);
+            this.myButton1.Size = new System.Drawing.Size(244, 120);
             this.myButton1.TabIndex = 49;
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
@@ -185,9 +189,9 @@
             this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton2.Location = new System.Drawing.Point(225, 454);
+            this.myButton2.Location = new System.Drawing.Point(235, 444);
             this.myButton2.Name = "myButton2";
-            this.myButton2.Size = new System.Drawing.Size(233, 41);
+            this.myButton2.Size = new System.Drawing.Size(215, 37);
             this.myButton2.TabIndex = 49;
             this.myButton2.UseVisualStyleBackColor = false;
             this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
@@ -425,22 +429,22 @@
             this.label18.TabIndex = 51;
             this.label18.Text = "8";
             // 
-            // label19
+            // label23
             // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label19.ForeColor = System.Drawing.Color.Blue;
-            this.label19.Location = new System.Drawing.Point(12, 366);
-            this.label19.Name = "label19";
-            this.label19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label19.Size = new System.Drawing.Size(289, 61);
-            this.label19.TabIndex = 52;
-            this.label19.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label23.ForeColor = System.Drawing.Color.Blue;
+            this.label23.Location = new System.Drawing.Point(12, 530);
+            this.label23.Name = "label23";
+            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label23.Size = new System.Drawing.Size(225, 55);
+            this.label23.TabIndex = 52;
+            this.label23.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن\r\nیا رخداد پس از کلیک آنها را خواهید دید.";
             // 
             // fa08
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -496,7 +500,7 @@
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.label17, 0);
             this.Controls.SetChildIndex(this.label18, 0);
-            this.Controls.SetChildIndex(this.label19, 0);
+            this.Controls.SetChildIndex(this.label23, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -535,7 +539,7 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.MyButton myButton3;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label23;
     }
 }
 

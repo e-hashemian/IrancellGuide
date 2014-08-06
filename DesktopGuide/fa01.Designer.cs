@@ -38,17 +38,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.login = new System.Windows.Forms.PictureBox();
+            this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
-            this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
-<<<<<<< HEAD
-=======
-            this.label4 = new System.Windows.Forms.Label();
->>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
+            this.myButton3 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.login)).BeginInit();
             this.login.SuspendLayout();
             this.SuspendLayout();
@@ -59,6 +57,7 @@
             // 
             // prevButton
             // 
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
             this.prevButton.Visible = false;
             // 
             // label2
@@ -71,27 +70,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
-<<<<<<< HEAD
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label4.Location = new System.Drawing.Point(305, 564);
-            this.label4.Name = "label4";
-            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(467, 24);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
-            // 
-=======
->>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(327, 295);
+            this.label5.Location = new System.Drawing.Point(327, 290);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label5.Size = new System.Drawing.Size(19, 21);
@@ -103,7 +87,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(327, 354);
+            this.label6.Location = new System.Drawing.Point(327, 349);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label6.Size = new System.Drawing.Size(19, 21);
@@ -115,7 +99,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(327, 425);
+            this.label7.Location = new System.Drawing.Point(327, 420);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label7.Size = new System.Drawing.Size(19, 21);
@@ -127,7 +111,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(327, 524);
+            this.label8.Location = new System.Drawing.Point(327, 525);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label8.Size = new System.Drawing.Size(19, 21);
@@ -178,22 +162,49 @@
             this.label11.TabIndex = 19;
             this.label11.Text = "-4";
             // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(300, 567);
+            this.label4.Name = "label4";
+            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label4.Size = new System.Drawing.Size(488, 24);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن یا رخداد پس از کلیک آنها را خواهید دید.";
+            // 
             // login
             // 
             this.login.BackColor = System.Drawing.Color.Transparent;
+            this.login.Controls.Add(this.arrow4);
             this.login.Controls.Add(this.myButton2);
             this.login.Controls.Add(this.arrow1);
             this.login.Controls.Add(this.arrow2);
             this.login.Controls.Add(this.arrow3);
-            this.login.Controls.Add(this.arrow4);
             this.login.Controls.Add(this.myButton1);
-            this.login.Image = global::DesktopGuide.Properties.Resources.Fa_Login_Page;
+            this.login.Controls.Add(this.myButton3);
+            this.login.Image = ((System.Drawing.Image)(resources.GetObject("login.Image")));
             this.login.Location = new System.Drawing.Point(18, 79);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(311, 509);
             this.login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.login.TabIndex = 20;
             this.login.TabStop = false;
+            // 
+            // arrow4
+            // 
+            this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow4._FilledCap = false;
+            this.arrow4._LineWidth = 1F;
+            this.arrow4._transparentParent = this.login;
+            this.arrow4.BackColor = System.Drawing.Color.Transparent;
+            this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow4.Location = new System.Drawing.Point(260, 435);
+            this.arrow4.Name = "arrow4";
+            this.arrow4.Size = new System.Drawing.Size(51, 45);
+            this.arrow4.TabIndex = 11;
             // 
             // myButton2
             // 
@@ -203,10 +214,11 @@
             this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton2.Location = new System.Drawing.Point(42, 435);
+            this.myButton2.Location = new System.Drawing.Point(42, 436);
             this.myButton2.Name = "myButton2";
-            this.myButton2.Size = new System.Drawing.Size(218, 44);
+            this.myButton2.Size = new System.Drawing.Size(217, 39);
             this.myButton2.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.myButton2, "نمایش رخداد پس از کلیک");
             this.myButton2.UseVisualStyleBackColor = false;
             this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
@@ -219,7 +231,7 @@
             this.arrow1._transparentParent = this.login;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(260, 220);
+            this.arrow1.Location = new System.Drawing.Point(260, 215);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(46, 15);
             this.arrow1.TabIndex = 8;
@@ -233,7 +245,7 @@
             this.arrow2._transparentParent = this.login;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow2.Location = new System.Drawing.Point(262, 278);
+            this.arrow2.Location = new System.Drawing.Point(262, 273);
             this.arrow2.Name = "arrow2";
             this.arrow2.Size = new System.Drawing.Size(46, 16);
             this.arrow2.TabIndex = 9;
@@ -247,24 +259,10 @@
             this.arrow3._transparentParent = this.login;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow3.Location = new System.Drawing.Point(260, 348);
+            this.arrow3.Location = new System.Drawing.Point(260, 343);
             this.arrow3.Name = "arrow3";
             this.arrow3.Size = new System.Drawing.Size(46, 16);
             this.arrow3.TabIndex = 10;
-            // 
-            // arrow4
-            // 
-            this.arrow4._CapSize = 10F;
-            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
-            this.arrow4._FilledCap = false;
-            this.arrow4._LineWidth = 1F;
-            this.arrow4._transparentParent = this.login;
-            this.arrow4.BackColor = System.Drawing.Color.Transparent;
-            this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow4.Location = new System.Drawing.Point(260, 447);
-            this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(64, 16);
-            this.arrow4.TabIndex = 11;
             // 
             // myButton1
             // 
@@ -274,35 +272,34 @@
             this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(218, 29);
+            this.myButton1.Location = new System.Drawing.Point(213, 7);
             this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(61, 23);
+            this.myButton1.Size = new System.Drawing.Size(61, 22);
             this.myButton1.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.myButton1, "جزئیات بیشتر");
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
-<<<<<<< HEAD
-            // fa01
+            // myButton3
             // 
-            this.ClientSize = new System.Drawing.Size(800, 600);
-=======
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(300, 567);
-            this.label4.Name = "label4";
-            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(488, 24);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
+            this.myButton3._transparentParent = this.login;
+            this.myButton3.BackColor = System.Drawing.Color.Transparent;
+            this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderSize = 2;
+            this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton3.Location = new System.Drawing.Point(232, 481);
+            this.myButton3.Name = "myButton3";
+            this.myButton3.Size = new System.Drawing.Size(42, 17);
+            this.myButton3.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.myButton3, "جزئیات بیشتر");
+            this.myButton3.UseVisualStyleBackColor = false;
+            this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 
             // fa01
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.label4);
->>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -326,10 +323,7 @@
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
-<<<<<<< HEAD
-=======
             this.Controls.SetChildIndex(this.label4, 0);
->>>>>>> 931c559ef8ffaa7926bba44fac43512066d24d5e
             ((System.ComponentModel.ISupportInitialize)(this.login)).EndInit();
             this.login.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -356,6 +350,7 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private System.Windows.Forms.Label label4;
+        private Controls.MyButton myButton3;
     }
 }
 

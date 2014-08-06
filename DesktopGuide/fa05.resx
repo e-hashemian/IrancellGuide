@@ -117,15 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="label2.Text" xml:space="preserve">
-    <value>بخش تست صدا
-
+    <value>بخش تست دستگاههای صوتی (میکروفن و اسپیکر)
 جهت تست میکروفن، روی این دکمه کلیک کنید تا صدایتان ضبط شود. سپس شروع به صحبت کنید و چند لحظه بعد، دوباره روی همین دکمه کلیک کنید تا صدای ضبط شده‌تان را بشنوید و از صحت ارتباط میکروفون و بلندگو اطمینان یابید.
-
 اگر میکروفون سالم باشد، شدت صدای دریافتی میکروفن در هر لحظه را در این نوار می‌بینید. 
-
 برای تست مجزای بلندگو، روی این دکمه کلیک کنید. اگر صدای زنگ نرم افزار را شنیدید، یعنی بلندگویتان سالم است.
-
+بخش تست دستگاههای تصویری (دوربین)
 بستن پنجره</value>
   </data>
 </root>

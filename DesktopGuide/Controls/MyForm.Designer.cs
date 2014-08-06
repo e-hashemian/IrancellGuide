@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.prevButton = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -52,6 +54,7 @@
             this.prevButton.Size = new System.Drawing.Size(75, 23);
             this.prevButton.TabIndex = 3;
             this.prevButton.Text = "قبلی";
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
             this.prevButton.UseVisualStyleBackColor = true;
             this.prevButton.Click += new System.EventHandler(this.prevButton_Click);
             // 
@@ -62,6 +65,7 @@
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.prevButton);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "MyForm";
@@ -75,6 +79,7 @@
 
         protected internal System.Windows.Forms.Label label1;
         protected internal System.Windows.Forms.Button prevButton;
+        protected System.Windows.Forms.ToolTip toolTip1;
 
 
     }

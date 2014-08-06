@@ -52,6 +52,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -59,6 +60,10 @@
             // label1
             // 
             this.label1.Text = "راهنمای پنجره ارسال گزارش خطا";
+            // 
+            // prevButton
+            // 
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
             // 
             // label2
             // 
@@ -130,7 +135,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(327, 157);
+            this.label16.Location = new System.Drawing.Point(330, 154);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(17, 18);
             this.label16.TabIndex = 32;
@@ -141,7 +146,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(326, 394);
+            this.label12.Location = new System.Drawing.Point(330, 389);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(17, 18);
             this.label12.TabIndex = 34;
@@ -152,7 +157,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(328, 270);
+            this.label13.Location = new System.Drawing.Point(330, 254);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(17, 18);
             this.label13.TabIndex = 35;
@@ -165,7 +170,7 @@
             this.main.Controls.Add(this.arrow1);
             this.main.Controls.Add(this.arrow6);
             this.main.Controls.Add(this.arrow7);
-            this.main.Image = global::DesktopGuide.Properties.Resources.Fa_Bug_Report;
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Bug_Report;
             this.main.InitialImage = null;
             this.main.Location = new System.Drawing.Point(19, 145);
             this.main.Name = "main";
@@ -183,7 +188,7 @@
             this.arrow5._transparentParent = this.main;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow5.Location = new System.Drawing.Point(267, 15);
+            this.arrow5.Location = new System.Drawing.Point(270, 12);
             this.arrow5.Name = "arrow5";
             this.arrow5.Size = new System.Drawing.Size(35, 11);
             this.arrow5.TabIndex = 44;
@@ -197,7 +202,7 @@
             this.arrow1._transparentParent = this.main;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(267, 128);
+            this.arrow1.Location = new System.Drawing.Point(270, 113);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(36, 10);
             this.arrow1.TabIndex = 44;
@@ -211,7 +216,7 @@
             this.arrow6._transparentParent = this.main;
             this.arrow6.BackColor = System.Drawing.Color.Transparent;
             this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(267, 170);
+            this.arrow6.Location = new System.Drawing.Point(270, 156);
             this.arrow6.Name = "arrow6";
             this.arrow6.Size = new System.Drawing.Size(36, 10);
             this.arrow6.TabIndex = 44;
@@ -225,7 +230,7 @@
             this.arrow7._transparentParent = this.main;
             this.arrow7.BackColor = System.Drawing.Color.Transparent;
             this.arrow7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow7.Location = new System.Drawing.Point(265, 212);
+            this.arrow7.Location = new System.Drawing.Point(269, 199);
             this.arrow7.Name = "arrow7";
             this.arrow7.Size = new System.Drawing.Size(36, 10);
             this.arrow7.TabIndex = 44;
@@ -261,7 +266,7 @@
             this.arrow8._transparentParent = this;
             this.arrow8.BackColor = System.Drawing.Color.Transparent;
             this.arrow8.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow8.Location = new System.Drawing.Point(286, 397);
+            this.arrow8.Location = new System.Drawing.Point(291, 393);
             this.arrow8.Name = "arrow8";
             this.arrow8.Size = new System.Drawing.Size(36, 10);
             this.arrow8.TabIndex = 44;
@@ -275,9 +280,9 @@
             this.arrow9._transparentParent = this;
             this.arrow9.BackColor = System.Drawing.Color.Transparent;
             this.arrow9.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow9.Location = new System.Drawing.Point(192, 435);
+            this.arrow9.Location = new System.Drawing.Point(192, 436);
             this.arrow9.Name = "arrow9";
-            this.arrow9.Size = new System.Drawing.Size(127, 55);
+            this.arrow9.Size = new System.Drawing.Size(133, 48);
             this.arrow9.TabIndex = 44;
             // 
             // arrow10
@@ -289,7 +294,7 @@
             this.arrow10._transparentParent = this;
             this.arrow10.BackColor = System.Drawing.Color.Transparent;
             this.arrow10.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow10.Location = new System.Drawing.Point(286, 482);
+            this.arrow10.Location = new System.Drawing.Point(295, 487);
             this.arrow10.Name = "arrow10";
             this.arrow10.Size = new System.Drawing.Size(36, 10);
             this.arrow10.TabIndex = 44;
@@ -299,7 +304,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(328, 311);
+            this.label7.Location = new System.Drawing.Point(330, 299);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(17, 18);
             this.label7.TabIndex = 45;
@@ -310,7 +315,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(326, 353);
+            this.label8.Location = new System.Drawing.Point(330, 340);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 18);
             this.label8.TabIndex = 46;
@@ -321,7 +326,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(325, 429);
+            this.label15.Location = new System.Drawing.Point(330, 427);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(17, 18);
             this.label15.TabIndex = 47;
@@ -332,15 +337,27 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(325, 478);
+            this.label17.Location = new System.Drawing.Point(330, 484);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(17, 18);
             this.label17.TabIndex = 48;
             this.label17.Text = "6";
             // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label14.ForeColor = System.Drawing.Color.Purple;
+            this.label14.Location = new System.Drawing.Point(425, 288);
+            this.label14.Name = "label14";
+            this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label14.Size = new System.Drawing.Size(294, 24);
+            this.label14.TabIndex = 49;
+            this.label14.Text = "وارد کردن آدرس ایمیل و شماره تماس ضروری است.";
+            // 
             // fa07
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.arrow10);
             this.Controls.Add(this.arrow9);
             this.Controls.Add(this.label17);
@@ -382,6 +399,7 @@
             this.Controls.SetChildIndex(this.label17, 0);
             this.Controls.SetChildIndex(this.arrow9, 0);
             this.Controls.SetChildIndex(this.arrow10, 0);
+            this.Controls.SetChildIndex(this.label14, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -414,6 +432,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private Controls.Arrow arrow10;
+        private System.Windows.Forms.Label label14;
     }
 }
 

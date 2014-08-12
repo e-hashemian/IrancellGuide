@@ -304,6 +304,12 @@
   <ItemGroup>
     <None Include="Resources\Farsi_Direct_Call_Window.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Recent_Events.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Holding_Conference.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

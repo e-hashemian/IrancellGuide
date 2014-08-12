@@ -434,12 +434,13 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label23.ForeColor = System.Drawing.Color.Blue;
-            this.label23.Location = new System.Drawing.Point(12, 530);
+            this.label23.Location = new System.Drawing.Point(12, 541);
             this.label23.Name = "label23";
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label23.Size = new System.Drawing.Size(225, 55);
-            this.label23.TabIndex = 52;
-            this.label23.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن\r\nیا رخداد پس از کلیک آنها را خواهید دید.";
+            this.label23.Size = new System.Drawing.Size(255, 54);
+            this.label23.TabIndex = 53;
+            this.label23.Text = "با کلیک بر هر کادر آبی رنگ،\r\nراهنمای اجزای درون آن نشان داده خواهد شد.";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // fa08
             // 

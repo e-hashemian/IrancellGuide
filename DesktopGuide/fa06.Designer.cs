@@ -198,7 +198,6 @@
             this.myButton2.Name = "myButton2";
             this.myButton2.Size = new System.Drawing.Size(233, 70);
             this.myButton2.TabIndex = 49;
-            this.toolTip1.SetToolTip(this.myButton2, "جزئیات بیشتر");
             this.myButton2.UseVisualStyleBackColor = false;
             this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
@@ -235,12 +234,12 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label23.ForeColor = System.Drawing.Color.Blue;
-            this.label23.Location = new System.Drawing.Point(355, 567);
+            this.label23.Location = new System.Drawing.Point(386, 567);
             this.label23.Name = "label23";
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label23.Size = new System.Drawing.Size(433, 24);
+            this.label23.Size = new System.Drawing.Size(402, 24);
             this.label23.TabIndex = 52;
-            this.label23.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن یا رخداد پس از کلیک آنها را خواهید دید.";
+            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // fa06
             // 

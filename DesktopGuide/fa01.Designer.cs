@@ -167,12 +167,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(300, 567);
+            this.label4.Location = new System.Drawing.Point(385, 567);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(488, 24);
+            this.label4.Size = new System.Drawing.Size(403, 24);
             this.label4.TabIndex = 21;
-            this.label4.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن یا رخداد پس از کلیک آنها را خواهید دید.";
+            this.label4.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // login
             // 
@@ -218,7 +218,6 @@
             this.myButton2.Name = "myButton2";
             this.myButton2.Size = new System.Drawing.Size(217, 39);
             this.myButton2.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.myButton2, "نمایش رخداد پس از کلیک");
             this.myButton2.UseVisualStyleBackColor = false;
             this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
@@ -276,7 +275,6 @@
             this.myButton1.Name = "myButton1";
             this.myButton1.Size = new System.Drawing.Size(61, 22);
             this.myButton1.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.myButton1, "جزئیات بیشتر");
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
@@ -292,7 +290,6 @@
             this.myButton3.Name = "myButton3";
             this.myButton3.Size = new System.Drawing.Size(42, 17);
             this.myButton3.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.myButton3, "جزئیات بیشتر");
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 

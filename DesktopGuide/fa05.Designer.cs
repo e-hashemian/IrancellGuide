@@ -363,7 +363,7 @@
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label23.Size = new System.Drawing.Size(433, 24);
             this.label23.TabIndex = 51;
-            this.label23.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن یا رخداد پس از کلیک آنها را خواهید دید.";
+            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // label17
             // 

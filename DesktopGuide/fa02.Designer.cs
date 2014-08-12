@@ -446,7 +446,6 @@
             this.myButton4.Name = "myButton4";
             this.myButton4.Size = new System.Drawing.Size(60, 57);
             this.myButton4.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.myButton4, "نمایش رخداد پس از کلیک");
             this.myButton4.UseVisualStyleBackColor = false;
             this.myButton4.Click += new System.EventHandler(this.myButton4_Click);
             // 
@@ -464,7 +463,6 @@
             this.myButton3.Name = "myButton3";
             this.myButton3.Size = new System.Drawing.Size(51, 20);
             this.myButton3.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.myButton3, "نمایش رخداد پس از کلیک");
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 
@@ -482,7 +480,6 @@
             this.myButton2.Name = "myButton2";
             this.myButton2.Size = new System.Drawing.Size(68, 20);
             this.myButton2.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.myButton2, "نمایش رخداد پس از کلیک");
             this.myButton2.UseVisualStyleBackColor = false;
             this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
@@ -556,7 +553,6 @@
             this.myButton1.Name = "myButton1";
             this.myButton1.Size = new System.Drawing.Size(72, 57);
             this.myButton1.TabIndex = 38;
-            this.toolTip1.SetToolTip(this.myButton1, "نمایش رخداد پس از کلیک");
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
@@ -628,7 +624,7 @@
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label23.Size = new System.Drawing.Size(488, 24);
             this.label23.TabIndex = 43;
-            this.label23.Text = "با کلیک بر هر کادر، شرح معنی اجزای آن یا رخداد پس از کلیک آنها را خواهید دید.";
+            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // fa02
             // 

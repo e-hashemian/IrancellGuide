@@ -41,7 +41,6 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
-            this.label6 = new System.Windows.Forms.Label();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
@@ -50,6 +49,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.arrow6 = new DesktopGuide.Controls.Arrow();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -58,13 +61,17 @@
             // 
             this.label1.Text = "راهنمای سربرگ تماسهای اخیر";
             // 
+            // prevButton
+            // 
+            this.toolTip1.SetToolTip(this.prevButton, "بازگشت به صفحه قبلی");
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.Location = new System.Drawing.Point(373, 100);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(370, 415);
+            this.label2.Size = new System.Drawing.Size(370, 440);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -84,7 +91,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(737, 151);
+            this.label9.Location = new System.Drawing.Point(738, 150);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -95,7 +102,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(740, 224);
+            this.label10.Location = new System.Drawing.Point(737, 222);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
@@ -106,7 +113,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(741, 318);
+            this.label11.Location = new System.Drawing.Point(738, 294);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(25, 21);
             this.label11.TabIndex = 19;
@@ -117,7 +124,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(740, 415);
+            this.label4.Location = new System.Drawing.Point(739, 390);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 21);
             this.label4.TabIndex = 21;
@@ -128,7 +135,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(326, 247);
+            this.label16.Location = new System.Drawing.Point(326, 253);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(17, 18);
             this.label16.TabIndex = 31;
@@ -140,7 +147,7 @@
             this.main.Controls.Add(this.myButton3);
             this.main.Controls.Add(this.myButton2);
             this.main.Controls.Add(this.myButton1);
-            this.main.Image = global::DesktopGuide.Properties.Resources.Fa_Recent_Calls;
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Recent_Events;
             this.main.Location = new System.Drawing.Point(19, 81);
             this.main.Name = "main";
             this.main.Size = new System.Drawing.Size(300, 502);
@@ -156,7 +163,7 @@
             this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton3.Location = new System.Drawing.Point(22, 124);
+            this.myButton3.Location = new System.Drawing.Point(22, 131);
             this.myButton3.Name = "myButton3";
             this.myButton3.Size = new System.Drawing.Size(254, 40);
             this.myButton3.TabIndex = 49;
@@ -196,37 +203,27 @@
             // arrow1
             // 
             this.arrow1._CapSize = 10F;
+            this.arrow1._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow1._FilledCap = false;
-            this.arrow1._LineWidth = 1F;            
+            this.arrow1._LineWidth = 1F;
             this.arrow1._transparentParent = this;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(280, 250);
+            this.arrow1.Location = new System.Drawing.Point(280, 256);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(38, 12);
             this.arrow1.TabIndex = 44;
             // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(300, 567);
-            this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(488, 24);
-            this.label6.TabIndex = 50;
-            this.label6.Text = "با کلیک روی هر کادر آبی رنگ، شرح اجزای آن و پنجره پس از کلیک آنها را خواهید دید.";
-            // 
             // arrow2
             // 
             this.arrow2._CapSize = 10F;
+            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow2._FilledCap = false;
-            this.arrow2._LineWidth = 1F;            
+            this.arrow2._LineWidth = 1F;
             this.arrow2._transparentParent = this;
             this.arrow2.BackColor = System.Drawing.Color.Transparent;
             this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow2.Location = new System.Drawing.Point(280, 270);
+            this.arrow2.Location = new System.Drawing.Point(280, 276);
             this.arrow2.Name = "arrow2";
             this.arrow2.Size = new System.Drawing.Size(38, 12);
             this.arrow2.TabIndex = 44;
@@ -234,12 +231,13 @@
             // arrow3
             // 
             this.arrow3._CapSize = 10F;
+            this.arrow3._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow3._FilledCap = false;
-            this.arrow3._LineWidth = 1F;            
+            this.arrow3._LineWidth = 1F;
             this.arrow3._transparentParent = this;
             this.arrow3.BackColor = System.Drawing.Color.Transparent;
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow3.Location = new System.Drawing.Point(280, 296);
+            this.arrow3.Location = new System.Drawing.Point(280, 302);
             this.arrow3.Name = "arrow3";
             this.arrow3.Size = new System.Drawing.Size(38, 12);
             this.arrow3.TabIndex = 44;
@@ -247,12 +245,13 @@
             // arrow4
             // 
             this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow4._FilledCap = false;
-            this.arrow4._LineWidth = 1F;            
+            this.arrow4._LineWidth = 1F;
             this.arrow4._transparentParent = this;
             this.arrow4.BackColor = System.Drawing.Color.Transparent;
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow4.Location = new System.Drawing.Point(280, 318);
+            this.arrow4.Location = new System.Drawing.Point(280, 324);
             this.arrow4.Name = "arrow4";
             this.arrow4.Size = new System.Drawing.Size(38, 12);
             this.arrow4.TabIndex = 44;
@@ -260,12 +259,13 @@
             // arrow5
             // 
             this.arrow5._CapSize = 10F;
+            this.arrow5._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
             this.arrow5._FilledCap = false;
-            this.arrow5._LineWidth = 1F;            
+            this.arrow5._LineWidth = 1F;
             this.arrow5._transparentParent = this;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow5.Location = new System.Drawing.Point(249, 389);
+            this.arrow5.Location = new System.Drawing.Point(249, 395);
             this.arrow5.Name = "arrow5";
             this.arrow5.Size = new System.Drawing.Size(69, 12);
             this.arrow5.TabIndex = 44;
@@ -275,7 +275,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(326, 265);
+            this.label5.Location = new System.Drawing.Point(326, 271);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 18);
             this.label5.TabIndex = 51;
@@ -286,7 +286,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(326, 290);
+            this.label7.Location = new System.Drawing.Point(326, 296);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(17, 18);
             this.label7.TabIndex = 52;
@@ -297,7 +297,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(326, 312);
+            this.label8.Location = new System.Drawing.Point(326, 318);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 18);
             this.label8.TabIndex = 53;
@@ -308,15 +308,67 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(326, 383);
+            this.label12.Location = new System.Drawing.Point(326, 389);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(17, 18);
             this.label12.TabIndex = 54;
-            this.label12.Text = "5";
+            this.label12.Text = "6";
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label23.ForeColor = System.Drawing.Color.Blue;
+            this.label23.Location = new System.Drawing.Point(390, 567);
+            this.label23.Name = "label23";
+            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label23.Size = new System.Drawing.Size(402, 24);
+            this.label23.TabIndex = 55;
+            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(326, 345);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 18);
+            this.label6.TabIndex = 56;
+            this.label6.Text = "5";
+            // 
+            // arrow6
+            // 
+            this.arrow6._CapSize = 10F;
+            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow6._FilledCap = false;
+            this.arrow6._LineWidth = 1F;
+            this.arrow6._transparentParent = this;
+            this.arrow6.BackColor = System.Drawing.Color.Transparent;
+            this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow6.Location = new System.Drawing.Point(280, 350);
+            this.arrow6.Name = "arrow6";
+            this.arrow6.Size = new System.Drawing.Size(38, 12);
+            this.arrow6.TabIndex = 44;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(738, 486);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(25, 21);
+            this.label13.TabIndex = 57;
+            this.label13.Text = "-6";
             // 
             // fa09
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.arrow6);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -325,7 +377,6 @@
             this.Controls.Add(this.arrow4);
             this.Controls.Add(this.arrow3);
             this.Controls.Add(this.arrow2);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.arrow1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label4);
@@ -347,7 +398,6 @@
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
             this.Controls.SetChildIndex(this.arrow1, 0);
-            this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.arrow2, 0);
             this.Controls.SetChildIndex(this.arrow3, 0);
             this.Controls.SetChildIndex(this.arrow4, 0);
@@ -356,6 +406,10 @@
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label12, 0);
+            this.Controls.SetChildIndex(this.label23, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.arrow6, 0);
+            this.Controls.SetChildIndex(this.label13, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -376,7 +430,6 @@
         private Controls.Arrow arrow1;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
-        private System.Windows.Forms.Label label6;
         private Controls.MyButton myButton3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label8;
@@ -386,6 +439,10 @@
         private Controls.Arrow arrow4;
         private Controls.Arrow arrow3;
         private Controls.Arrow arrow2;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label13;
+        private Controls.Arrow arrow6;
+        private System.Windows.Forms.Label label6;
     }
 }
 

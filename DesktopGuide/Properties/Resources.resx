@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Fa_Recent_Calls" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recent Calls.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="InRoomLockedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InRoomLockedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,9 +145,6 @@
   <data name="UserBusySmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UserBusySmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Starting_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Starting Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Farsi_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Login_Page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -171,5 +165,11 @@
   </data>
   <data name="Farsi_Direct_Call_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Direct_Call_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Holding_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Holding_Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Recent_Events" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Recent_Events.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

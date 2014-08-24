@@ -12,10 +12,15 @@ namespace DesktopGuide
     {
         public fa09()
         {
-            InitializeComponent();
-        }
+            InitializeComponent();            
+        }        
 
         private void myButton1_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa02());
+        }
+
+        private void myButton2_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa02());
         }
@@ -24,12 +29,5 @@ namespace DesktopGuide
         {
             MoveToSlide(new fa03());
         }
-
-        private void myButton2_Click(object sender, EventArgs e)
-        {
-            MoveToSlide(new fa02());
-        }
-        
-        
     }
 }

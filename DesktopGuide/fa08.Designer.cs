@@ -59,6 +59,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.myButton4 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -139,6 +140,7 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton4);
             this.main.Controls.Add(this.myButton3);
             this.main.Controls.Add(this.myButton1);
             this.main.Controls.Add(this.myButton2);
@@ -442,6 +444,21 @@
             this.label23.Text = "با کلیک بر هر کادر آبی رنگ،\r\nراهنمای اجزای درون آن نشان داده خواهد شد.";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // myButton4
+            // 
+            this.myButton4._transparentParent = this.main;
+            this.myButton4.BackColor = System.Drawing.Color.Transparent;
+            this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderSize = 2;
+            this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton4.Location = new System.Drawing.Point(30, 442);
+            this.myButton4.Name = "myButton4";
+            this.myButton4.Size = new System.Drawing.Size(187, 25);
+            this.myButton4.TabIndex = 49;
+            this.myButton4.UseVisualStyleBackColor = false;
+            this.myButton4.Click += new System.EventHandler(this.myButton4_Click);
+            // 
             // fa08
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -541,6 +558,7 @@
         private Controls.MyButton myButton2;
         private Controls.MyButton myButton3;
         private System.Windows.Forms.Label label23;
+        private Controls.MyButton myButton4;
     }
 }
 

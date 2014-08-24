@@ -57,6 +57,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+            this.myButton5 = new DesktopGuide.Controls.MyButton();
             this.arrow11 = new DesktopGuide.Controls.Arrow();
             this.myButton4 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
@@ -72,6 +73,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.myButton6 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -401,6 +403,8 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton6);
+            this.main.Controls.Add(this.myButton5);
             this.main.Controls.Add(this.arrow11);
             this.main.Controls.Add(this.myButton4);
             this.main.Controls.Add(this.myButton3);
@@ -417,6 +421,23 @@
             this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.main.TabIndex = 20;
             this.main.TabStop = false;
+            // 
+            // myButton5
+            // 
+            this.myButton5._transparentParent = this.main;
+            this.myButton5.BackColor = System.Drawing.Color.Transparent;
+            this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton5.FlatAppearance.BorderSize = 2;
+            this.myButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton5.Location = new System.Drawing.Point(77, 70);
+            this.myButton5.Name = "myButton5";
+            this.myButton5.Size = new System.Drawing.Size(56, 57);
+            this.myButton5.TabIndex = 38;
+            this.myButton5.UseVisualStyleBackColor = false;
+            this.myButton5.Click += new System.EventHandler(this.myButton5_Click);
             // 
             // arrow11
             // 
@@ -626,6 +647,23 @@
             this.label23.TabIndex = 43;
             this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
+            // myButton6
+            // 
+            this.myButton6._transparentParent = this.main;
+            this.myButton6.BackColor = System.Drawing.Color.Transparent;
+            this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton6.FlatAppearance.BorderSize = 2;
+            this.myButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton6.Location = new System.Drawing.Point(30, 70);
+            this.myButton6.Name = "myButton6";
+            this.myButton6.Size = new System.Drawing.Size(44, 57);
+            this.myButton6.TabIndex = 38;
+            this.myButton6.UseVisualStyleBackColor = false;
+            this.myButton6.Click += new System.EventHandler(this.myButton6_Click);
+            // 
             // fa02
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -752,6 +790,8 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label23;
+        private Controls.MyButton myButton5;
+        private Controls.MyButton myButton6;
     }
 }
 

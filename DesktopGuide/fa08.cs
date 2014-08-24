@@ -29,5 +29,10 @@ namespace DesktopGuide
         {
             MoveToSlide(new fa03());
         }
+
+        private void myButton4_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa09());
+        }
     }
 }

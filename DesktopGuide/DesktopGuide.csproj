@@ -84,17 +84,113 @@
     <None Include="Controls\MyLabel.cs">
       <SubType>Component</SubType>
     </None>
-    <Compile Include="fa10.cs">
+    <Compile Include="fa26.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fa10.Designer.cs">
-      <DependentUpon>fa10.cs</DependentUpon>
+    <Compile Include="fa26.Designer.cs">
+      <DependentUpon>fa26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa25.Designer.cs">
+      <DependentUpon>fa25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa24.Designer.cs">
+      <DependentUpon>fa24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa23.Designer.cs">
+      <DependentUpon>fa23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa22.Designer.cs">
+      <DependentUpon>fa22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa21.Designer.cs">
+      <DependentUpon>fa21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa20.Designer.cs">
+      <DependentUpon>fa20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa19.Designer.cs">
+      <DependentUpon>fa19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa18.Designer.cs">
+      <DependentUpon>fa18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa17.Designer.cs">
+      <DependentUpon>fa17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa16.Designer.cs">
+      <DependentUpon>fa16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa15.Designer.cs">
+      <DependentUpon>fa15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa14.Designer.cs">
+      <DependentUpon>fa14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa13.Designer.cs">
+      <DependentUpon>fa13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa12.Designer.cs">
+      <DependentUpon>fa12.cs</DependentUpon>
     </Compile>
     <Compile Include="fa09.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fa09.Designer.cs">
       <DependentUpon>fa09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa11.Designer.cs">
+      <DependentUpon>fa11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa10.Designer.cs">
+      <DependentUpon>fa10.cs</DependentUpon>
     </Compile>
     <Compile Include="fa08.cs">
       <SubType>Form</SubType>
@@ -149,11 +245,59 @@
     <EmbeddedResource Include="Controls\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fa10.resx">
-      <DependentUpon>fa10.cs</DependentUpon>
+    <EmbeddedResource Include="fa26.resx">
+      <DependentUpon>fa26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa25.resx">
+      <DependentUpon>fa25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa24.resx">
+      <DependentUpon>fa24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa23.resx">
+      <DependentUpon>fa23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa22.resx">
+      <DependentUpon>fa22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa21.resx">
+      <DependentUpon>fa21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa20.resx">
+      <DependentUpon>fa20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa19.resx">
+      <DependentUpon>fa19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa18.resx">
+      <DependentUpon>fa18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa17.resx">
+      <DependentUpon>fa17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa16.resx">
+      <DependentUpon>fa16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa15.resx">
+      <DependentUpon>fa15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa14.resx">
+      <DependentUpon>fa14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa13.resx">
+      <DependentUpon>fa13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa12.resx">
+      <DependentUpon>fa12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa09.resx">
       <DependentUpon>fa09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa11.resx">
+      <DependentUpon>fa11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa10.resx">
+      <DependentUpon>fa10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa08.resx">
       <DependentUpon>fa08.cs</DependentUpon>
@@ -309,6 +453,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Farsi_Holding_Conference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Dialpad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Invite_People.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Joining_Room_Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Message_Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_Devices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_Network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_Status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Option_Version.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Participant_Control_Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Room_Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Settings_Tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmptyRoom_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullRoom_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LockedRoom_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OccupiedRoom_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinnedRoom_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Joining_Conference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LockedPinnedRoomSmall_01Small.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

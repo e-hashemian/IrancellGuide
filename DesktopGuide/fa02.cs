@@ -32,7 +32,17 @@ namespace DesktopGuide
 
         private void myButton4_Click(object sender, EventArgs e)
         {
-            MoveToSlide(new fa10());
+            MoveToSlide(new fa11());
+        }
+
+        private void myButton5_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa18());
+        }
+
+        private void myButton6_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa19());
         }
     }
 }

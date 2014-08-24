@@ -18,16 +18,16 @@ namespace DesktopGuide
         private void myButton1_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa02());
-        }        
+        }
+
+        private void myButton3_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa03());
+        }
 
         private void myButton2_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa02());
-        }
-
-        private void fa10_Load(object sender, EventArgs e)
-        {
-
         }
         
         

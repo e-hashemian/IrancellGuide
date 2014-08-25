@@ -82,11 +82,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Black;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(675, 84);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 15);
+            this.label3.Size = new System.Drawing.Size(20, 16);
             this.label3.TabIndex = 16;
             this.label3.Text = "-1";
             // 
@@ -119,12 +119,12 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Font = new System.Drawing.Font("B Nazanin", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.Font = new System.Drawing.Font("B Nazanin", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(73, 81);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(602, 335);
+            this.label2.Size = new System.Drawing.Size(602, 357);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -392,11 +392,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Black;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(675, 104);
+            this.label17.Location = new System.Drawing.Point(675, 105);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 15);
+            this.label17.Size = new System.Drawing.Size(20, 16);
             this.label17.TabIndex = 57;
             this.label17.Text = "-2";
             // 
@@ -404,11 +404,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Black;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(675, 144);
+            this.label5.Location = new System.Drawing.Point(675, 148);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(17, 15);
+            this.label5.Size = new System.Drawing.Size(20, 16);
             this.label5.TabIndex = 58;
             this.label5.Text = "-3";
             // 
@@ -416,11 +416,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Black;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(675, 165);
+            this.label9.Location = new System.Drawing.Point(675, 168);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(17, 15);
+            this.label9.Size = new System.Drawing.Size(20, 16);
             this.label9.TabIndex = 59;
             this.label9.Text = "-4";
             // 
@@ -428,11 +428,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Black;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(675, 184);
+            this.label10.Location = new System.Drawing.Point(675, 188);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 15);
+            this.label10.Size = new System.Drawing.Size(20, 16);
             this.label10.TabIndex = 60;
             this.label10.Text = "-5";
             // 
@@ -440,11 +440,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Black;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label18.ForeColor = System.Drawing.Color.Red;
-            this.label18.Location = new System.Drawing.Point(675, 223);
+            this.label18.Location = new System.Drawing.Point(675, 231);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 15);
+            this.label18.Size = new System.Drawing.Size(20, 16);
             this.label18.TabIndex = 61;
             this.label18.Text = "-6";
             // 
@@ -452,11 +452,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Black;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label19.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label19.ForeColor = System.Drawing.Color.Red;
-            this.label19.Location = new System.Drawing.Point(675, 244);
+            this.label19.Location = new System.Drawing.Point(675, 252);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(17, 15);
+            this.label19.Size = new System.Drawing.Size(20, 16);
             this.label19.TabIndex = 62;
             this.label19.Text = "-7";
             // 
@@ -464,11 +464,11 @@
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Black;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label21.ForeColor = System.Drawing.Color.Red;
-            this.label21.Location = new System.Drawing.Point(673, 285);
+            this.label21.Location = new System.Drawing.Point(673, 293);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(17, 15);
+            this.label21.Size = new System.Drawing.Size(20, 16);
             this.label21.TabIndex = 63;
             this.label21.Text = "-8";
             // 
@@ -476,11 +476,11 @@
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Black;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label22.ForeColor = System.Drawing.Color.Red;
-            this.label22.Location = new System.Drawing.Point(673, 325);
+            this.label22.Location = new System.Drawing.Point(673, 336);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(17, 15);
+            this.label22.Size = new System.Drawing.Size(20, 16);
             this.label22.TabIndex = 64;
             this.label22.Text = "-9";
             // 
@@ -488,11 +488,11 @@
             // 
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.Black;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label23.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label23.ForeColor = System.Drawing.Color.Red;
-            this.label23.Location = new System.Drawing.Point(673, 362);
+            this.label23.Location = new System.Drawing.Point(673, 378);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(23, 15);
+            this.label23.Size = new System.Drawing.Size(27, 16);
             this.label23.TabIndex = 65;
             this.label23.Text = "-10";
             // 
@@ -500,11 +500,11 @@
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.Black;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label24.ForeColor = System.Drawing.Color.Red;
-            this.label24.Location = new System.Drawing.Point(673, 385);
+            this.label24.Location = new System.Drawing.Point(673, 399);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(23, 15);
+            this.label24.Size = new System.Drawing.Size(26, 16);
             this.label24.TabIndex = 66;
             this.label24.Text = "-11";
             // 

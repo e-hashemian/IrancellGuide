@@ -67,6 +67,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.arrow9 = new DesktopGuide.Controls.Arrow();
+            this.myButton9 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -294,6 +295,7 @@
             // main
             // 
             this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton9);
             this.main.Controls.Add(this.arrow4);
             this.main.Controls.Add(this.myButton8);
             this.main.Controls.Add(this.myButton7);
@@ -426,7 +428,7 @@
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(221, 167);
             this.myButton3.Name = "myButton3";
-            this.myButton3.Size = new System.Drawing.Size(30, 30);
+            this.myButton3.Size = new System.Drawing.Size(30, 28);
             this.myButton3.TabIndex = 49;
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
@@ -565,6 +567,21 @@
             this.arrow9.Size = new System.Drawing.Size(38, 12);
             this.arrow9.TabIndex = 44;
             // 
+            // myButton9
+            // 
+            this.myButton9._transparentParent = this.main;
+            this.myButton9.BackColor = System.Drawing.Color.Transparent;
+            this.myButton9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton9.FlatAppearance.BorderSize = 2;
+            this.myButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton9.Location = new System.Drawing.Point(161, 193);
+            this.myButton9.Name = "myButton9";
+            this.myButton9.Size = new System.Drawing.Size(90, 30);
+            this.myButton9.TabIndex = 49;
+            this.myButton9.UseVisualStyleBackColor = false;
+            this.myButton9.Click += new System.EventHandler(this.myButton9_Click);
+            // 
             // fa11
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -677,6 +694,7 @@
         private Controls.MyButton myButton6;
         private Controls.MyButton myButton7;
         private Controls.MyButton myButton8;
+        private Controls.MyButton myButton9;
     }
 }
 

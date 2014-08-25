@@ -47,6 +47,7 @@
             this.myButton3 = new DesktopGuide.Controls.MyButton();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -284,9 +285,23 @@
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click_1);
             // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label15.ForeColor = System.Drawing.Color.Purple;
+            this.label15.Location = new System.Drawing.Point(355, 415);
+            this.label15.Name = "label15";
+            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label15.Size = new System.Drawing.Size(389, 69);
+            this.label15.TabIndex = 54;
+            this.label15.Text = "اگر قصد دارید تنها صدای کنفرانس تان را ضبط کنید (نه تصویر حضار) نوع خروجی را mp3 " +
+                "یا wav یا wma انتخاب کنید.";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // fa26
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.arrow3);
             this.Controls.Add(this.label4);
@@ -320,6 +335,7 @@
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.arrow3, 0);
             this.Controls.SetChildIndex(this.label5, 0);
+            this.Controls.SetChildIndex(this.label15, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -347,6 +363,7 @@
         private System.Windows.Forms.Label label5;
         private Controls.Arrow arrow3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label15;
     }
 }
 

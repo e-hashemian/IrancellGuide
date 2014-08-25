@@ -36,6 +36,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+            this.myButton4 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
@@ -62,7 +63,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.arrow9 = new DesktopGuide.Controls.Arrow();
             this.label20 = new System.Windows.Forms.Label();
-            this.myButton4 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -101,7 +101,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(481, 108);
+            this.label9.Location = new System.Drawing.Point(481, 107);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -112,7 +112,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(481, 128);
+            this.label10.Location = new System.Drawing.Point(481, 127);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
@@ -123,7 +123,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(481, 208);
+            this.label11.Location = new System.Drawing.Point(481, 207);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(25, 21);
             this.label11.TabIndex = 19;
@@ -156,6 +156,21 @@
             this.main.TabIndex = 20;
             this.main.TabStop = false;
             // 
+            // myButton4
+            // 
+            this.myButton4._transparentParent = this.main;
+            this.myButton4.BackColor = System.Drawing.Color.Transparent;
+            this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderSize = 2;
+            this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton4.Location = new System.Drawing.Point(34, 424);
+            this.myButton4.Name = "myButton4";
+            this.myButton4.Size = new System.Drawing.Size(186, 22);
+            this.myButton4.TabIndex = 49;
+            this.myButton4.UseVisualStyleBackColor = false;
+            this.myButton4.Click += new System.EventHandler(this.myButton4_Click_1);
+            // 
             // myButton3
             // 
             this.myButton3._transparentParent = this.main;
@@ -164,9 +179,9 @@
             this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton3.Location = new System.Drawing.Point(235, 127);
+            this.myButton3.Location = new System.Drawing.Point(235, 128);
             this.myButton3.Name = "myButton3";
-            this.myButton3.Size = new System.Drawing.Size(215, 311);
+            this.myButton3.Size = new System.Drawing.Size(217, 311);
             this.myButton3.TabIndex = 49;
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
@@ -482,21 +497,6 @@
             this.label20.Size = new System.Drawing.Size(25, 21);
             this.label20.TabIndex = 55;
             this.label20.Text = "-9";
-            // 
-            // myButton4
-            // 
-            this.myButton4._transparentParent = this.main;
-            this.myButton4.BackColor = System.Drawing.Color.Transparent;
-            this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton4.FlatAppearance.BorderSize = 2;
-            this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton4.Location = new System.Drawing.Point(34, 424);
-            this.myButton4.Name = "myButton4";
-            this.myButton4.Size = new System.Drawing.Size(186, 22);
-            this.myButton4.TabIndex = 49;
-            this.myButton4.UseVisualStyleBackColor = false;
-            this.myButton4.Click += new System.EventHandler(this.myButton4_Click_1);
             // 
             // fa17
             // 

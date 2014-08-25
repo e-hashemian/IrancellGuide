@@ -32,6 +32,7 @@ namespace DesktopGuide
 
                 case DialogResult.Retry:
                     this.Show();
+                    this.WindowState = FormWindowState.Normal;
                     break;
             }
         }        

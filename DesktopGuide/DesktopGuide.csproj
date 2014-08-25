@@ -81,9 +81,6 @@
     <Compile Include="Controls\MyForm.Designer.cs">
       <DependentUpon>MyForm.cs</DependentUpon>
     </Compile>
-    <None Include="Controls\MyLabel.cs">
-      <SubType>Component</SubType>
-    </None>
     <Compile Include="fa29.cs">
       <SubType>Form</SubType>
     </Compile>

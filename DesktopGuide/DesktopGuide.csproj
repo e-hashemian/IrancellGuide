@@ -84,6 +84,24 @@
     <None Include="Controls\MyLabel.cs">
       <SubType>Component</SubType>
     </None>
+    <Compile Include="fa29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa29.Designer.cs">
+      <DependentUpon>fa29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa27.Designer.cs">
+      <DependentUpon>fa27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa28.Designer.cs">
+      <DependentUpon>fa28.cs</DependentUpon>
+    </Compile>
     <Compile Include="fa26.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +262,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa29.resx">
+      <DependentUpon>fa29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa27.resx">
+      <DependentUpon>fa27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa28.resx">
+      <DependentUpon>fa28.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa26.resx">
       <DependentUpon>fa26.cs</DependentUpon>
@@ -494,9 +521,6 @@
     <None Include="Resources\Farsi_Room_Settings.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Farsi_Settings_Tab.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\EmptyRoom_01Small.png" />
   </ItemGroup>
   <ItemGroup>
@@ -516,6 +540,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LockedPinnedRoomSmall_01Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Recording_Option.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Settings_Tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Conference_Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Conference_Chat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

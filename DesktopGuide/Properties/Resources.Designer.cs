@@ -103,6 +103,26 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Farsi_Conference_Chat {
+            get {
+                object obj = ResourceManager.GetObject("Farsi_Conference_Chat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Farsi_Conference_Window {
+            get {
+                object obj = ResourceManager.GetObject("Farsi_Conference_Window", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Farsi_Contact_List {
             get {
                 object obj = ResourceManager.GetObject("Farsi_Contact_List", resourceCulture);
@@ -286,6 +306,16 @@ namespace DesktopGuide.Properties {
         internal static System.Drawing.Bitmap Farsi_Recent_Events {
             get {
                 object obj = ResourceManager.GetObject("Farsi_Recent_Events", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Farsi_Recording_Option {
+            get {
+                object obj = ResourceManager.GetObject("Farsi_Recording_Option", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

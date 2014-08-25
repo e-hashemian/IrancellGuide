@@ -35,10 +35,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.main = new System.Windows.Forms.PictureBox();
-            this.myButton3 = new DesktopGuide.Controls.MyButton();
-            this.myButton1 = new DesktopGuide.Controls.MyButton();
-            this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -59,7 +55,12 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.main = new System.Windows.Forms.PictureBox();
             this.myButton4 = new DesktopGuide.Controls.MyButton();
+            this.myButton3 = new DesktopGuide.Controls.MyButton();
+            this.myButton1 = new DesktopGuide.Controls.MyButton();
+            this.myButton2 = new DesktopGuide.Controls.MyButton();
+            this.myButton5 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -136,67 +137,6 @@
             this.label13.Size = new System.Drawing.Size(17, 18);
             this.label13.TabIndex = 35;
             this.label13.Text = "1";
-            // 
-            // main
-            // 
-            this.main.BackColor = System.Drawing.Color.Transparent;
-            this.main.Controls.Add(this.myButton4);
-            this.main.Controls.Add(this.myButton3);
-            this.main.Controls.Add(this.myButton1);
-            this.main.Controls.Add(this.myButton2);
-            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Direct_Call_Window;
-            this.main.InitialImage = null;
-            this.main.Location = new System.Drawing.Point(306, 76);
-            this.main.Name = "main";
-            this.main.Size = new System.Drawing.Size(462, 509);
-            this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.main.TabIndex = 20;
-            this.main.TabStop = false;
-            // 
-            // myButton3
-            // 
-            this.myButton3._transparentParent = this.main;
-            this.myButton3.BackColor = System.Drawing.Color.Transparent;
-            this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton3.FlatAppearance.BorderSize = 2;
-            this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton3.Location = new System.Drawing.Point(235, 127);
-            this.myButton3.Name = "myButton3";
-            this.myButton3.Size = new System.Drawing.Size(215, 311);
-            this.myButton3.TabIndex = 49;
-            this.myButton3.UseVisualStyleBackColor = false;
-            this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
-            // 
-            // myButton1
-            // 
-            this.myButton1._transparentParent = this.main;
-            this.myButton1.BackColor = System.Drawing.Color.Transparent;
-            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton1.FlatAppearance.BorderSize = 2;
-            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(206, 0);
-            this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(244, 120);
-            this.myButton1.TabIndex = 49;
-            this.myButton1.UseVisualStyleBackColor = false;
-            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
-            // 
-            // myButton2
-            // 
-            this.myButton2._transparentParent = this.main;
-            this.myButton2.BackColor = System.Drawing.Color.Transparent;
-            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton2.FlatAppearance.BorderSize = 2;
-            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton2.Location = new System.Drawing.Point(235, 444);
-            this.myButton2.Name = "myButton2";
-            this.myButton2.Size = new System.Drawing.Size(215, 37);
-            this.myButton2.TabIndex = 49;
-            this.myButton2.UseVisualStyleBackColor = false;
-            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
             // 
             // arrow5
             // 
@@ -444,6 +384,23 @@
             this.label23.Text = "با کلیک بر هر کادر آبی رنگ،\r\nراهنمای اجزای درون آن نشان داده خواهد شد.";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // main
+            // 
+            this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.myButton5);
+            this.main.Controls.Add(this.myButton4);
+            this.main.Controls.Add(this.myButton3);
+            this.main.Controls.Add(this.myButton1);
+            this.main.Controls.Add(this.myButton2);
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Direct_Call_Window;
+            this.main.InitialImage = null;
+            this.main.Location = new System.Drawing.Point(306, 76);
+            this.main.Name = "main";
+            this.main.Size = new System.Drawing.Size(462, 509);
+            this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.main.TabIndex = 20;
+            this.main.TabStop = false;
+            // 
             // myButton4
             // 
             this.myButton4._transparentParent = this.main;
@@ -458,6 +415,66 @@
             this.myButton4.TabIndex = 49;
             this.myButton4.UseVisualStyleBackColor = false;
             this.myButton4.Click += new System.EventHandler(this.myButton4_Click);
+            // 
+            // myButton3
+            // 
+            this.myButton3._transparentParent = this.main;
+            this.myButton3.BackColor = System.Drawing.Color.Transparent;
+            this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderSize = 2;
+            this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton3.Location = new System.Drawing.Point(235, 127);
+            this.myButton3.Name = "myButton3";
+            this.myButton3.Size = new System.Drawing.Size(215, 311);
+            this.myButton3.TabIndex = 49;
+            this.myButton3.UseVisualStyleBackColor = false;
+            this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
+            // 
+            // myButton1
+            // 
+            this.myButton1._transparentParent = this.main;
+            this.myButton1.BackColor = System.Drawing.Color.Transparent;
+            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderSize = 2;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.Location = new System.Drawing.Point(206, 0);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(244, 120);
+            this.myButton1.TabIndex = 49;
+            this.myButton1.UseVisualStyleBackColor = false;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
+            // 
+            // myButton2
+            // 
+            this.myButton2._transparentParent = this.main;
+            this.myButton2.BackColor = System.Drawing.Color.Transparent;
+            this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderSize = 2;
+            this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton2.Location = new System.Drawing.Point(235, 444);
+            this.myButton2.Name = "myButton2";
+            this.myButton2.Size = new System.Drawing.Size(215, 37);
+            this.myButton2.TabIndex = 49;
+            this.myButton2.UseVisualStyleBackColor = false;
+            this.myButton2.Click += new System.EventHandler(this.myButton2_Click);
+            // 
+            // myButton5
+            // 
+            this.myButton5._transparentParent = this.main;
+            this.myButton5.BackColor = System.Drawing.Color.Transparent;
+            this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton5.FlatAppearance.BorderSize = 2;
+            this.myButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton5.Location = new System.Drawing.Point(30, 387);
+            this.myButton5.Name = "myButton5";
+            this.myButton5.Size = new System.Drawing.Size(187, 25);
+            this.myButton5.TabIndex = 49;
+            this.myButton5.UseVisualStyleBackColor = false;
+            this.myButton5.Click += new System.EventHandler(this.myButton5_Click);
             // 
             // fa08
             // 
@@ -559,6 +576,7 @@
         private Controls.MyButton myButton3;
         private System.Windows.Forms.Label label23;
         private Controls.MyButton myButton4;
+        private Controls.MyButton myButton5;
     }
 }
 

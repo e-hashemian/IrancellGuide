@@ -48,6 +48,9 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.label15 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.arrow4 = new DesktopGuide.Controls.Arrow();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -76,7 +79,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(737, 186);
+            this.label9.Location = new System.Drawing.Point(737, 139);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -87,7 +90,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(737, 233);
+            this.label10.Location = new System.Drawing.Point(737, 211);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
@@ -127,7 +130,7 @@
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(17, 18);
             this.label25.TabIndex = 40;
-            this.label25.Text = "2";
+            this.label25.Text = "3";
             // 
             // label23
             // 
@@ -150,7 +153,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(17, 18);
             this.label13.TabIndex = 44;
-            this.label13.Text = "3";
+            this.label13.Text = "4";
             // 
             // label2
             // 
@@ -213,14 +216,14 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(17, 18);
             this.label4.TabIndex = 45;
-            this.label4.Text = "4";
+            this.label4.Text = "5";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(737, 281);
+            this.label5.Location = new System.Drawing.Point(737, 259);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 21);
             this.label5.TabIndex = 46;
@@ -295,12 +298,52 @@
             this.label15.Size = new System.Drawing.Size(389, 69);
             this.label15.TabIndex = 54;
             this.label15.Text = "اگر قصد دارید تنها صدای کنفرانس تان را ضبط کنید (نه تصویر حضار) نوع خروجی را mp3 " +
-                "یا wav یا wma انتخاب کنید.";
+    "یا wav یا wma انتخاب کنید.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(298, 301);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 18);
+            this.label6.TabIndex = 55;
+            this.label6.Text = "2";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // arrow4
+            // 
+            this.arrow4._CapSize = 10F;
+            this.arrow4._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow4._FilledCap = false;
+            this.arrow4._LineWidth = 1F;
+            this.arrow4._transparentParent = this;
+            this.arrow4.BackColor = System.Drawing.Color.Transparent;
+            this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow4.Location = new System.Drawing.Point(204, 301);
+            this.arrow4.Name = "arrow4";
+            this.arrow4.Size = new System.Drawing.Size(92, 18);
+            this.arrow4.TabIndex = 27;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(737, 306);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(25, 21);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "-5";
             // 
             // fa26
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.arrow4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.arrow3);
@@ -336,6 +379,9 @@
             this.Controls.SetChildIndex(this.arrow3, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label15, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.arrow4, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -364,6 +410,9 @@
         private Controls.Arrow arrow3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label15;
+        private Controls.Arrow arrow4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 

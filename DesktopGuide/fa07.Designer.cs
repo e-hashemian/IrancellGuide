@@ -280,9 +280,9 @@
             this.arrow9._transparentParent = this;
             this.arrow9.BackColor = System.Drawing.Color.Transparent;
             this.arrow9.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow9.Location = new System.Drawing.Point(192, 436);
+            this.arrow9.Location = new System.Drawing.Point(192, 422);
             this.arrow9.Name = "arrow9";
-            this.arrow9.Size = new System.Drawing.Size(133, 48);
+            this.arrow9.Size = new System.Drawing.Size(133, 59);
             this.arrow9.TabIndex = 44;
             // 
             // arrow10
@@ -326,7 +326,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(330, 427);
+            this.label15.Location = new System.Drawing.Point(330, 415);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(17, 18);
             this.label15.TabIndex = 47;

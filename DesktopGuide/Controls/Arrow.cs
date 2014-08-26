@@ -32,9 +32,9 @@ namespace DesktopGuide.Controls
         public Arrow()
         {
             pen.CustomEndCap = cap;
-            pen.StartCap = LineCap.Flat;
+            pen.StartCap = LineCap.Flat;            
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
             BackColor = Color.Transparent;            
-            SetStyle(ControlStyles.SupportsTransparentBackColor, true);            
         }
 
         protected override CreateParams CreateParams
@@ -104,6 +104,11 @@ namespace DesktopGuide.Controls
         }
         #endregion
 
+        protected override void OnPaintBackground(PaintEventArgs e)
+        {
+            //base.OnPaintBackground(e);
+        }
+        
         protected override void OnPaint(PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = SmoothingMode.HighQuality;

@@ -56,7 +56,7 @@
             // 
             // label1
             // 
-            this.label1.Text = "راهنمای پنجره تماس مستقیم";
+            this.label1.Text = "راهنمای پنجره ارسال پیام و فایل";
             // 
             // prevButton
             // 

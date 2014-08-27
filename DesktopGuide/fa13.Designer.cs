@@ -33,12 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
             this.label18 = new System.Windows.Forms.Label();
@@ -53,13 +47,14 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Text = "راهنمای پنجره کشوئی دعوت از افراد به جلسه";
+            this.label1.Text = "راهنمای پنجره دعوت از افراد به جلسه";
             // 
             // prevButton
             // 
@@ -71,7 +66,7 @@
             this.label2.Location = new System.Drawing.Point(349, 99);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(394, 411);
+            this.label2.Size = new System.Drawing.Size(394, 289);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -80,7 +75,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(737, 103);
+            this.label3.Location = new System.Drawing.Point(737, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 21);
             this.label3.TabIndex = 16;
@@ -91,7 +86,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(737, 126);
+            this.label9.Location = new System.Drawing.Point(737, 197);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -102,77 +97,11 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(740, 175);
+            this.label10.Location = new System.Drawing.Point(737, 293);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
             this.label10.Text = "-3";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(741, 223);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(25, 21);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "-4";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(740, 247);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 21);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "-5";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(741, 463);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(25, 21);
-            this.label13.TabIndex = 58;
-            this.label13.Text = "-9";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(741, 391);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(25, 21);
-            this.label14.TabIndex = 57;
-            this.label14.Text = "-8";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(741, 367);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(25, 21);
-            this.label15.TabIndex = 56;
-            this.label15.Text = "-7";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(741, 318);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(25, 21);
-            this.label17.TabIndex = 55;
-            this.label17.Text = "-6";
             // 
             // arrow7
             // 
@@ -368,9 +297,24 @@
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label15.ForeColor = System.Drawing.Color.Purple;
+            this.label15.Location = new System.Drawing.Point(356, 387);
+            this.label15.Name = "label15";
+            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label15.Size = new System.Drawing.Size(380, 109);
+            this.label15.TabIndex = 66;
+            this.label15.Text = "از آنجا که دستگاه‌های قدیمی قابل جستجو  و نمایش نیستند، جهت دعوت از آنها برای حضو" +
+                "ر در جلسه‌تان، شماره آنها را در بخش جستجو وارد کنید و سپس دکمه دعوت به جلسه را ب" +
+                "زنید.\r\n";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // fa13
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.arrow9);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label23);
@@ -378,12 +322,6 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.arrow8);
             this.Controls.Add(this.arrow7);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label3);
@@ -396,14 +334,8 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.label9, 0);
             this.Controls.SetChildIndex(this.label10, 0);
-            this.Controls.SetChildIndex(this.label11, 0);
-            this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
-            this.Controls.SetChildIndex(this.label17, 0);
-            this.Controls.SetChildIndex(this.label15, 0);
-            this.Controls.SetChildIndex(this.label14, 0);
-            this.Controls.SetChildIndex(this.label13, 0);
             this.Controls.SetChildIndex(this.arrow7, 0);
             this.Controls.SetChildIndex(this.arrow8, 0);
             this.Controls.SetChildIndex(this.label18, 0);
@@ -411,6 +343,7 @@
             this.Controls.SetChildIndex(this.label23, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.arrow9, 0);
+            this.Controls.SetChildIndex(this.label15, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -424,17 +357,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox main;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.Arrow arrow8;
         private Controls.Arrow arrow7;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label23;
@@ -444,6 +371,7 @@
         private Controls.MyButton myButton4;
         private Controls.MyButton myButton5;
         private Controls.MyButton myButton6;
+        private System.Windows.Forms.Label label15;
     }
 }
 

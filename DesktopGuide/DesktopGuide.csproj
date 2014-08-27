@@ -455,9 +455,6 @@
     <None Include="Resources\Farsi Login Page.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Farsi_Login_Page.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Farsi_Main_Window.png" />
   </ItemGroup>
   <ItemGroup>
@@ -555,6 +552,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GuideIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farsi_Login_Page.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -68,7 +68,7 @@
             // 
             // label1
             // 
-            this.label1.Text = "راهنمای پنجره تماس مستقیم";
+            this.label1.Text = "راهنمای پنجره برقراری تماس";
             // 
             // prevButton
             // 

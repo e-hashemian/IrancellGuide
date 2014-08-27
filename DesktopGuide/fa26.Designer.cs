@@ -161,7 +161,7 @@
             this.label2.Location = new System.Drawing.Point(319, 88);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(424, 292);
+            this.label2.Size = new System.Drawing.Size(424, 323);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -292,13 +292,13 @@
             // 
             this.label15.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Purple;
-            this.label15.Location = new System.Drawing.Point(355, 415);
+            this.label15.Location = new System.Drawing.Point(351, 428);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label15.Size = new System.Drawing.Size(389, 69);
             this.label15.TabIndex = 54;
             this.label15.Text = "اگر قصد دارید تنها صدای کنفرانس تان را ضبط کنید (نه تصویر حضار) نوع خروجی را mp3 " +
-    "یا wav یا wma انتخاب کنید.";
+                "یا wav یا wma انتخاب کنید.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
@@ -311,7 +311,6 @@
             this.label6.Size = new System.Drawing.Size(17, 18);
             this.label6.TabIndex = 55;
             this.label6.Text = "2";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // arrow4
             // 

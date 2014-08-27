@@ -168,7 +168,7 @@
             this.arrow5._transparentParent = this;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow5.Location = new System.Drawing.Point(276, 314);
+            this.arrow5.Location = new System.Drawing.Point(276, 312);
             this.arrow5.Name = "arrow5";
             this.arrow5.Size = new System.Drawing.Size(78, 10);
             this.arrow5.TabIndex = 44;
@@ -182,7 +182,7 @@
             this.arrow1._transparentParent = this;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(276, 330);
+            this.arrow1.Location = new System.Drawing.Point(276, 334);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(78, 11);
             this.arrow1.TabIndex = 44;
@@ -206,7 +206,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(255, 308);
+            this.label6.Location = new System.Drawing.Point(255, 306);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 18);
             this.label6.TabIndex = 47;
@@ -217,7 +217,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(255, 326);
+            this.label15.Location = new System.Drawing.Point(255, 330);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(17, 18);
             this.label15.TabIndex = 48;

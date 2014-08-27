@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa26));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa27));
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -154,10 +154,10 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(319, 88);
+            this.label2.Location = new System.Drawing.Point(317, 88);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(424, 292);
+            this.label2.Size = new System.Drawing.Size(424, 330);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -284,7 +284,7 @@
             this.label5.TabIndex = 46;
             this.label5.Text = "-4";
             // 
-            // fa26
+            // fa27
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.label5);
@@ -302,7 +302,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.main);
-            this.Name = "fa26";
+            this.Name = "fa27";
             this.Controls.SetChildIndex(this.main, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);

@@ -131,7 +131,7 @@
             this.arrow6._transparentParent = this.main;
             this.arrow6.BackColor = System.Drawing.Color.Transparent;
             this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(290, 236);
+            this.arrow6.Location = new System.Drawing.Point(244, 236);
             this.arrow6.Name = "arrow6";
             this.arrow6.Size = new System.Drawing.Size(75, 18);
             this.arrow6.TabIndex = 44;

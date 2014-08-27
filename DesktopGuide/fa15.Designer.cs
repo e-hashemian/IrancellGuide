@@ -64,10 +64,10 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(367, 93);
+            this.label2.Location = new System.Drawing.Point(365, 93);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(365, 490);
+            this.label2.Size = new System.Drawing.Size(374, 490);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 

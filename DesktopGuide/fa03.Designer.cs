@@ -199,7 +199,7 @@
             this.arrow5._transparentParent = this.main;
             this.arrow5.BackColor = System.Drawing.Color.Transparent;
             this.arrow5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow5.Location = new System.Drawing.Point(8, 146);
+            this.arrow5.Location = new System.Drawing.Point(1, 146);
             this.arrow5.Name = "arrow5";
             this.arrow5.Size = new System.Drawing.Size(26, 9);
             this.arrow5.TabIndex = 44;
@@ -258,9 +258,9 @@
             this.arrow6._transparentParent = this.main;
             this.arrow6.BackColor = System.Drawing.Color.Transparent;
             this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(8, 181);
+            this.arrow6.Location = new System.Drawing.Point(-7, 181);
             this.arrow6.Name = "arrow6";
-            this.arrow6.Size = new System.Drawing.Size(29, 56);
+            this.arrow6.Size = new System.Drawing.Size(44, 56);
             this.arrow6.TabIndex = 44;
             // 
             // arrow3
@@ -313,9 +313,9 @@
             this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(22, 1);
+            this.myButton1.Location = new System.Drawing.Point(22, 0);
             this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(254, 120);
+            this.myButton1.Size = new System.Drawing.Size(254, 122);
             this.myButton1.TabIndex = 49;
             this.myButton1.UseVisualStyleBackColor = false;
             this.myButton1.Click += new System.EventHandler(this.myButton1_Click);

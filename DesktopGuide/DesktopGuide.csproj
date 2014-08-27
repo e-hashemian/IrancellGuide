@@ -54,6 +54,9 @@
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GuideIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -549,6 +552,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Farsi_Conference_Chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GuideIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

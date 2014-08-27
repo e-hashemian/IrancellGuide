@@ -310,8 +310,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 18);
             this.label6.TabIndex = 55;
-            this.label6.Text = "2";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label6.Text = "2";            
             // 
             // arrow4
             // 

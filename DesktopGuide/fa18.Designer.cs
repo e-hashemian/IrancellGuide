@@ -154,7 +154,7 @@
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label23.Size = new System.Drawing.Size(488, 24);
             this.label23.TabIndex = 43;
-            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
+            this.label23.Text = "با کلیک بر هر کادر چشمک زن، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // arrow1
             // 
@@ -204,8 +204,8 @@
             this.label2.Size = new System.Drawing.Size(424, 73);
             this.label2.TabIndex = 2;
             this.label2.Text = "شماره تماستان را با صفحه کلید اینجا وارد کنید.\r\nبرای وارد کردن شماره مقصد با ماوس" +
-                "، می‌توانید از این صفحه کلید هم استفاده کنید.\r\nپس از وارد کردن شماره مقصد این دک" +
-                "مه را فشار دهید.\r\n\r\n\r\n\r\n";
+    "، می‌توانید از این صفحه کلید هم استفاده کنید.\r\nپس از وارد کردن شماره مقصد این دک" +
+    "مه را فشار دهید.\r\n\r\n\r\n\r\n";
             // 
             // label14
             // 
@@ -439,7 +439,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(22, 460);
@@ -454,7 +454,7 @@
             this.myButton1._transparentParent = this.main;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton1.Location = new System.Drawing.Point(22, 0);

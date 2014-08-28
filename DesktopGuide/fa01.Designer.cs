@@ -46,8 +46,8 @@
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
-            this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
+            this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(375, 82);
+            this.label2.Location = new System.Drawing.Point(366, 77);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label2.Size = new System.Drawing.Size(365, 469);
@@ -171,12 +171,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(385, 567);
+            this.label4.Location = new System.Drawing.Point(318, 567);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(403, 24);
+            this.label4.Size = new System.Drawing.Size(470, 24);
             this.label4.TabIndex = 21;
-            this.label4.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
+            this.label4.Text = "با کلیک بر هر کادر چشمک زن، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // login
             // 
@@ -187,8 +187,8 @@
             this.login.Controls.Add(this.arrow1);
             this.login.Controls.Add(this.arrow2);
             this.login.Controls.Add(this.arrow3);
-            this.login.Controls.Add(this.myButton1);
             this.login.Controls.Add(this.myButton3);
+            this.login.Controls.Add(this.myButton1);
             this.login.Image = ((System.Drawing.Image)(resources.GetObject("login.Image")));
             this.login.Location = new System.Drawing.Point(18, 79);
             this.login.Name = "login";
@@ -230,7 +230,7 @@
             this.myButton2._transparentParent = this.login;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(44, 438);
@@ -282,27 +282,12 @@
             this.arrow3.Size = new System.Drawing.Size(46, 16);
             this.arrow3.TabIndex = 10;
             // 
-            // myButton1
-            // 
-            this.myButton1._transparentParent = this.login;
-            this.myButton1.BackColor = System.Drawing.Color.Transparent;
-            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton1.FlatAppearance.BorderSize = 2;
-            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton1.Location = new System.Drawing.Point(211, 3);
-            this.myButton1.Name = "myButton1";
-            this.myButton1.Size = new System.Drawing.Size(72, 37);
-            this.myButton1.TabIndex = 22;
-            this.myButton1.UseVisualStyleBackColor = false;
-            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
-            // 
             // myButton3
             // 
             this.myButton3._transparentParent = this.login;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(232, 481);
@@ -311,6 +296,21 @@
             this.myButton3.TabIndex = 22;
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
+            // 
+            // myButton1
+            // 
+            this.myButton1._transparentParent = this.login;
+            this.myButton1.BackColor = System.Drawing.Color.Transparent;
+            this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderSize = 2;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.Location = new System.Drawing.Point(210, 3);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(72, 37);
+            this.myButton1.TabIndex = 22;
+            this.myButton1.UseVisualStyleBackColor = false;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
             // 
             // label12
             // 
@@ -345,8 +345,8 @@
             this.label15.Size = new System.Drawing.Size(360, 109);
             this.label15.TabIndex = 55;
             this.label15.Text = "اگر ترجیح می‌دهید از این پس، نرم افزار به محض روشن شدن کامپیوترتان به طور خودکار " +
-                "اجرا گردد، علاوه بر اینجا در سربرگ تنظیمات، وارد بخش «گزینه ها» شوید و «اجرای بر" +
-                "نامه بعد از روشن شدن» را هم تیک بزنید.";
+    "اجرا گردد، علاوه بر اینجا در سربرگ تنظیمات، وارد بخش «گزینه ها» شوید و «اجرای بر" +
+    "نامه بعد از روشن شدن» را هم تیک بزنید.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // fa01

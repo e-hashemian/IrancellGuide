@@ -32,9 +32,9 @@ namespace DesktopGuide.Controls
         public Arrow()
         {
             pen.CustomEndCap = cap;
-            pen.StartCap = LineCap.Flat;            
+            pen.StartCap = LineCap.Flat;
             SetStyle(ControlStyles.SupportsTransparentBackColor, true);
-            BackColor = Color.Transparent;            
+            BackColor = Color.Transparent;
         }
 
         protected override CreateParams CreateParams
@@ -46,6 +46,8 @@ namespace DesktopGuide.Controls
                 return cp;
             }
         }
+
+        protected override void OnPaintBackground(PaintEventArgs e) { }
 
         #region Properties
         public Control _transparentParent
@@ -104,11 +106,8 @@ namespace DesktopGuide.Controls
         }
         #endregion
 
-        protected override void OnPaintBackground(PaintEventArgs e)
-        {
-            //base.OnPaintBackground(e);
-        }
-        
+
+
         protected override void OnPaint(PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = SmoothingMode.HighQuality;
@@ -138,7 +137,7 @@ namespace DesktopGuide.Controls
                     break;
             }
 
-            switch(dir)
+            switch (dir)
             {
                 case Direction.SecondaryDiagonalToButtom:
                 case Direction.SecondaryDiagonalToTop:
@@ -152,7 +151,7 @@ namespace DesktopGuide.Controls
 
                 case Direction.TopToButtom:
                 case Direction.ButtomToTop:
-                    e.Graphics.DrawLine(pen, Width / 2, startY, Width / 2, endY);                    
+                    e.Graphics.DrawLine(pen, Width / 2, startY, Width / 2, endY);
                     break;
 
                 case Direction.LeftToRight:

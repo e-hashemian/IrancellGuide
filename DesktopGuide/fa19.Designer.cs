@@ -157,7 +157,7 @@
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label23.Size = new System.Drawing.Size(488, 24);
             this.label23.TabIndex = 43;
-            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
+            this.label23.Text = "با کلیک بر هر کادر چشمک زن، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // label13
             // 
@@ -414,7 +414,7 @@
             this.myButton10._transparentParent = this.main;
             this.myButton10.BackColor = System.Drawing.Color.Transparent;
             this.myButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton10.FlatAppearance.BorderSize = 2;
             this.myButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton10.Location = new System.Drawing.Point(98, 379);
@@ -429,7 +429,7 @@
             this.myButton9._transparentParent = this.main;
             this.myButton9.BackColor = System.Drawing.Color.Transparent;
             this.myButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton9.FlatAppearance.BorderSize = 2;
             this.myButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton9.Location = new System.Drawing.Point(98, 349);
@@ -444,7 +444,7 @@
             this.myButton8._transparentParent = this.main;
             this.myButton8.BackColor = System.Drawing.Color.Transparent;
             this.myButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton8.FlatAppearance.BorderSize = 2;
             this.myButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton8.Location = new System.Drawing.Point(98, 318);
@@ -459,7 +459,7 @@
             this.myButton7._transparentParent = this.main;
             this.myButton7.BackColor = System.Drawing.Color.Transparent;
             this.myButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton7.FlatAppearance.BorderSize = 2;
             this.myButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton7.Location = new System.Drawing.Point(98, 287);
@@ -474,7 +474,7 @@
             this.myButton6._transparentParent = this.main;
             this.myButton6.BackColor = System.Drawing.Color.Transparent;
             this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton6.FlatAppearance.BorderSize = 2;
             this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton6.Location = new System.Drawing.Point(98, 256);
@@ -489,7 +489,7 @@
             this.myButton5._transparentParent = this.main;
             this.myButton5.BackColor = System.Drawing.Color.Transparent;
             this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton5.FlatAppearance.BorderSize = 2;
             this.myButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton5.Location = new System.Drawing.Point(98, 225);
@@ -504,7 +504,7 @@
             this.myButton3._transparentParent = this.main;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(98, 161);
@@ -519,7 +519,7 @@
             this.myButton4._transparentParent = this.main;
             this.myButton4.BackColor = System.Drawing.Color.Transparent;
             this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton4.FlatAppearance.BorderSize = 2;
             this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton4.Location = new System.Drawing.Point(98, 195);
@@ -534,7 +534,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(22, 460);
@@ -549,7 +549,7 @@
             this.myButton1._transparentParent = this.main;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton1.Location = new System.Drawing.Point(21, 2);

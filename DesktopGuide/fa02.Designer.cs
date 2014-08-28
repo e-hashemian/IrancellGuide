@@ -57,6 +57,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.main = new System.Windows.Forms.PictureBox();
+            this.myButton6 = new DesktopGuide.Controls.MyButton();
             this.myButton5 = new DesktopGuide.Controls.MyButton();
             this.arrow11 = new DesktopGuide.Controls.Arrow();
             this.myButton4 = new DesktopGuide.Controls.MyButton();
@@ -73,7 +74,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.myButton6 = new DesktopGuide.Controls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -422,12 +422,29 @@
             this.main.TabIndex = 20;
             this.main.TabStop = false;
             // 
+            // myButton6
+            // 
+            this.myButton6._transparentParent = this.main;
+            this.myButton6.BackColor = System.Drawing.Color.Transparent;
+            this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton6.FlatAppearance.BorderSize = 2;
+            this.myButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.myButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton6.Location = new System.Drawing.Point(30, 70);
+            this.myButton6.Name = "myButton6";
+            this.myButton6.Size = new System.Drawing.Size(44, 57);
+            this.myButton6.TabIndex = 38;
+            this.myButton6.UseVisualStyleBackColor = false;
+            this.myButton6.Click += new System.EventHandler(this.myButton6_Click);
+            // 
             // myButton5
             // 
             this.myButton5._transparentParent = this.main;
             this.myButton5.BackColor = System.Drawing.Color.Transparent;
             this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton5.FlatAppearance.BorderSize = 2;
             this.myButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -458,7 +475,7 @@
             this.myButton4._transparentParent = this.main;
             this.myButton4.BackColor = System.Drawing.Color.Transparent;
             this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton4.FlatAppearance.BorderSize = 2;
             this.myButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -475,7 +492,7 @@
             this.myButton3._transparentParent = this.main;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -492,7 +509,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -565,7 +582,7 @@
             this.myButton1._transparentParent = this.main;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -645,24 +662,7 @@
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label23.Size = new System.Drawing.Size(488, 24);
             this.label23.TabIndex = 43;
-            this.label23.Text = "با کلیک بر هر کادر آبی رنگ، راهنمای اجزای درون آن نشان داده خواهد شد.";
-            // 
-            // myButton6
-            // 
-            this.myButton6._transparentParent = this.main;
-            this.myButton6.BackColor = System.Drawing.Color.Transparent;
-            this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.myButton6.FlatAppearance.BorderSize = 2;
-            this.myButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.myButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton6.Location = new System.Drawing.Point(30, 70);
-            this.myButton6.Name = "myButton6";
-            this.myButton6.Size = new System.Drawing.Size(44, 57);
-            this.myButton6.TabIndex = 38;
-            this.myButton6.UseVisualStyleBackColor = false;
-            this.myButton6.Click += new System.EventHandler(this.myButton6_Click);
+            this.label23.Text = "با کلیک بر هر کادر چشمک زن، راهنمای اجزای درون آن نشان داده خواهد شد.";
             // 
             // fa02
             // 

@@ -127,7 +127,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(737, 85);
+            this.label3.Location = new System.Drawing.Point(729, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 21);
             this.label3.TabIndex = 16;
@@ -138,7 +138,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(737, 157);
+            this.label9.Location = new System.Drawing.Point(729, 152);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -149,7 +149,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(735, 230);
+            this.label10.Location = new System.Drawing.Point(727, 225);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
@@ -160,7 +160,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(737, 275);
+            this.label11.Location = new System.Drawing.Point(729, 270);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(25, 21);
             this.label11.TabIndex = 19;
@@ -170,7 +170,7 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(318, 567);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -189,7 +189,7 @@
             this.login.Controls.Add(this.arrow3);
             this.login.Controls.Add(this.myButton3);
             this.login.Controls.Add(this.myButton1);
-            this.login.Image = ((System.Drawing.Image)(resources.GetObject("login.Image")));
+            this.login.Image = global::DesktopGuide.Properties.Resources.Farsi_Login_Page;
             this.login.Location = new System.Drawing.Point(18, 79);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(311, 509);
@@ -230,7 +230,7 @@
             this.myButton2._transparentParent = this.login;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(44, 438);
@@ -287,7 +287,7 @@
             this.myButton3._transparentParent = this.login;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(232, 481);
@@ -302,7 +302,7 @@
             this.myButton1._transparentParent = this.login;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton1.Location = new System.Drawing.Point(210, 3);
@@ -329,7 +329,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(735, 517);
+            this.label13.Location = new System.Drawing.Point(729, 512);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(25, 21);
             this.label13.TabIndex = 23;

@@ -293,6 +293,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label13.ForeColor = System.Drawing.Color.Red;
             this.label13.Location = new System.Drawing.Point(270, 132);
@@ -304,6 +305,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label14.ForeColor = System.Drawing.Color.Red;
             this.label14.Location = new System.Drawing.Point(250, 132);
@@ -315,6 +317,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
             this.label15.Location = new System.Drawing.Point(230, 132);
@@ -326,6 +329,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
             this.label16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label16.ForeColor = System.Drawing.Color.Red;
             this.label16.Location = new System.Drawing.Point(249, 254);
@@ -337,6 +341,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
             this.label17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label17.ForeColor = System.Drawing.Color.Red;
             this.label17.Location = new System.Drawing.Point(175, 255);
@@ -348,6 +353,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.White;
             this.label18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label18.ForeColor = System.Drawing.Color.Red;
             this.label18.Location = new System.Drawing.Point(112, 255);
@@ -359,6 +365,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label19.ForeColor = System.Drawing.Color.Red;
             this.label19.Location = new System.Drawing.Point(62, 255);
@@ -370,6 +377,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label20.ForeColor = System.Drawing.Color.Red;
             this.label20.Location = new System.Drawing.Point(266, 482);
@@ -381,6 +389,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label21.ForeColor = System.Drawing.Color.Red;
             this.label21.Location = new System.Drawing.Point(175, 482);
@@ -392,6 +401,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.White;
             this.label22.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label22.ForeColor = System.Drawing.Color.Red;
             this.label22.Location = new System.Drawing.Point(108, 482);
@@ -427,7 +437,7 @@
             this.myButton6._transparentParent = this.main;
             this.myButton6.BackColor = System.Drawing.Color.Transparent;
             this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton6.FlatAppearance.BorderSize = 2;
             this.myButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -444,7 +454,7 @@
             this.myButton5._transparentParent = this.main;
             this.myButton5.BackColor = System.Drawing.Color.Transparent;
             this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton5.FlatAppearance.BorderSize = 2;
             this.myButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -475,7 +485,7 @@
             this.myButton4._transparentParent = this.main;
             this.myButton4.BackColor = System.Drawing.Color.Transparent;
             this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton4.FlatAppearance.BorderSize = 2;
             this.myButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -492,7 +502,7 @@
             this.myButton3._transparentParent = this.main;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -509,7 +519,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -582,7 +592,7 @@
             this.myButton1._transparentParent = this.main;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.myButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -597,6 +607,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.White;
             this.label24.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label24.ForeColor = System.Drawing.Color.Red;
             this.label24.Location = new System.Drawing.Point(207, 132);
@@ -608,6 +619,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.White;
             this.label25.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label25.ForeColor = System.Drawing.Color.Red;
             this.label25.Location = new System.Drawing.Point(226, 482);
@@ -656,7 +668,7 @@
             // 
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label23.ForeColor = System.Drawing.Color.Blue;
+            this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(300, 567);
             this.label23.Name = "label23";
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

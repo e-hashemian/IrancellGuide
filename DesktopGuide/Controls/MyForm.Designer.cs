@@ -62,7 +62,7 @@
             // MyForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.prevButton);
             this.Controls.Add(this.label1);
@@ -73,6 +73,7 @@
             this.Name = "MyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Desktop Guide";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }

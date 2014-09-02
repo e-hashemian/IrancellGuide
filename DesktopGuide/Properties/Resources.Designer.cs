@@ -73,6 +73,16 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap English_Login_Page {
+            get {
+                object obj = ResourceManager.GetObject("English_Login_Page", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Farsi_Audio_Test {
             get {
                 object obj = ResourceManager.GetObject("Farsi_Audio_Test", resourceCulture);

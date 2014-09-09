@@ -34,7 +34,12 @@ namespace DesktopGuide
                     return form;
                 }
             }
+
+#if DEBUG
             return new en01();
+#else
+            return new fa01();
+#endif
         }
     }
 }

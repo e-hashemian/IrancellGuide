@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new Controls.MyLabel();
+            this.label3 = new Controls.MyLabel();
+            this.label9 = new Controls.MyLabel();
+            this.label5 = new Controls.MyLabel();
             this.circle1 = new DesktopGuide.Controls.Circle();
             this.circle2 = new DesktopGuide.Controls.Circle();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label6 = new Controls.MyLabel();
+            this.label7 = new Controls.MyLabel();
+            this.label8 = new Controls.MyLabel();
+            this.label12 = new Controls.MyLabel();
+            this.label15 = new Controls.MyLabel();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
-            this.label23 = new System.Windows.Forms.Label();
+            this.label23 = new Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();

@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(en01));
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label2 = new DesktopGuide.Controls.MyLabel();
+            this.label5 = new DesktopGuide.Controls.MyLabel();
+            this.label6 = new DesktopGuide.Controls.MyLabel();
+            this.label7 = new DesktopGuide.Controls.MyLabel();
+            this.label8 = new DesktopGuide.Controls.MyLabel();
+            this.label3 = new DesktopGuide.Controls.MyLabel();
+            this.label9 = new DesktopGuide.Controls.MyLabel();
+            this.label10 = new DesktopGuide.Controls.MyLabel();
+            this.label11 = new DesktopGuide.Controls.MyLabel();
+            this.label4 = new DesktopGuide.Controls.MyLabel();
+            this.label12 = new DesktopGuide.Controls.MyLabel();
+            this.label13 = new DesktopGuide.Controls.MyLabel();
+            this.label15 = new DesktopGuide.Controls.MyLabel();
             this.login = new System.Windows.Forms.PictureBox();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
@@ -213,7 +213,7 @@
             this.label15.Size = new System.Drawing.Size(360, 70);
             this.label15.TabIndex = 55;
             this.label15.Text = "If you also want to activate the application automatic login at Windows startup, " +
-                "go to SETTINGS tab and check \"Start application at startup\" in OPTIONS.";
+    "go to SETTINGS tab and check \"Start application at startup\" in OPTIONS.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // login
@@ -227,7 +227,7 @@
             this.login.Controls.Add(this.arrow3);
             this.login.Controls.Add(this.myButton1);
             this.login.Controls.Add(this.myButton3);
-            this.login.Image = ((System.Drawing.Image)(resources.GetObject("login.Image")));
+            this.login.Image = global::DesktopGuide.Properties.Resources.English_Login_Page;
             this.login.Location = new System.Drawing.Point(452, 79);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(311, 509);
@@ -268,7 +268,7 @@
             this.myButton2._transparentParent = this.login;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(46, 442);
@@ -325,7 +325,7 @@
             this.myButton1._transparentParent = this.login;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton1.Location = new System.Drawing.Point(210, -1);
@@ -340,7 +340,7 @@
             this.myButton3._transparentParent = this.login;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(232, 482);
@@ -393,28 +393,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
         private Controls.Arrow arrow1;
         private Controls.Arrow arrow2;
         private Controls.Arrow arrow3;
         private Controls.Arrow arrow4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox login;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
-        private System.Windows.Forms.Label label4;
         private Controls.MyButton myButton3;
         private Controls.Arrow arrow5;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label15;
+        private Controls.MyLabel label2;
+        private Controls.MyLabel label5;
+        private Controls.MyLabel label6;
+        private Controls.MyLabel label7;
+        private Controls.MyLabel label8;
+        private Controls.MyLabel label3;
+        private Controls.MyLabel label9;
+        private Controls.MyLabel label10;
+        private Controls.MyLabel label11;
+        private Controls.MyLabel label4;
+        private Controls.MyLabel label12;
+        private Controls.MyLabel label13;
+        private Controls.MyLabel label15;
     }
 }
 

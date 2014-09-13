@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa22));
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.label3 = new Controls.MyLabel();
+            this.label9 = new Controls.MyLabel();
+            this.label10 = new Controls.MyLabel();
             this.arrow10 = new DesktopGuide.Controls.Arrow();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label20 = new Controls.MyLabel();
+            this.label25 = new Controls.MyLabel();
+            this.label23 = new Controls.MyLabel();
+            this.label13 = new Controls.MyLabel();
+            this.label2 = new Controls.MyLabel();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
@@ -45,15 +45,15 @@
             this.myButton3 = new DesktopGuide.Controls.MyButton();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new Controls.MyLabel();
+            this.label6 = new Controls.MyLabel();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label8 = new Controls.MyLabel();
+            this.label11 = new Controls.MyLabel();
+            this.label15 = new Controls.MyLabel();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label16 = new Controls.MyLabel();
+            this.label4 = new Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();

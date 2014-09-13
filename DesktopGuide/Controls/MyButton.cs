@@ -8,22 +8,10 @@ using System.Drawing;
 namespace DesktopGuide.Controls
 {
     class MyButton : Button
-    {
-        //Color Hover = Color.FromArgb(128, Color.Red);
-        //Color Blink1 = Color.FromArgb(128, Color.Blue);
-        //Color Blink2 = Color.FromArgb(128, Color.Green);
-
+    {        
         Color Hover = Color.FromArgb(128, Color.Red);
         Color Blink1 = Color.FromArgb(128, Color.Black);
-        Color Blink2 = Color.FromArgb(0, Color.White);
-
-        //Color Hover = Color.Blue;
-        //Color Blink1 = Color.Red;
-        //Color Blink2 = Color.FromArgb(0, Color.White);
-
-        //Color Hover = Color.FromArgb(255, Color.Red);
-        //Color Blink1 = Color.FromArgb(255, Color.Blue);
-        //Color Blink2 = Color.FromArgb(0, Color.White);
+        Color Blink2 = Color.FromArgb(0, Color.White);        
 
         public MyButton()
         {
@@ -82,6 +70,6 @@ namespace DesktopGuide.Controls
                 return cp;
             }
         }
-        protected override void OnPaintBackground(PaintEventArgs e) { }
+        protected override void OnPaintBackground(PaintEventArgs e) { }        
     }
 }

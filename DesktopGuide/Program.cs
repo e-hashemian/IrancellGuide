@@ -3,23 +3,41 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 using System.Drawing;
+using System.IO;
+using DesktopGuide.Controls;
 
 namespace DesktopGuide
 {
     static class Program
     {
+        public static string AppDir;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            try
+            {
+                AppDir = (new FileInfo(Application.ExecutablePath)).DirectoryName;
+                MyLabel.myFonts.AddFontFile(Program.AppDir + "\\BNazanin.ttf");
+                MyLabel.myFonts.AddFontFile(Program.AppDir + "\\BNazaninB.ttf");
+                MyLabel.myFonts.AddFontFile(Program.AppDir + "\\BTitr.ttf");
+                MyLabel.myFonts.AddFontFile(Program.AppDir + "\\BTitrB.ttf");
+                MyLabel.myFonts.AddFontFile(Program.AppDir + "\\BYekan.ttf");
 
-            MyForm form = CreateForm(args);
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(form);
+                MyForm form = CreateForm(args);
+
+                Application.Run(form);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private static MyForm CreateForm(string[] args)

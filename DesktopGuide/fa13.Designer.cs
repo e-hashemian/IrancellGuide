@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa13));
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.label2 = new Controls.MyLabel();
+            this.label3 = new Controls.MyLabel();
+            this.label9 = new Controls.MyLabel();
+            this.label10 = new Controls.MyLabel();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label18 = new Controls.MyLabel();
+            this.label19 = new Controls.MyLabel();
+            this.label23 = new Controls.MyLabel();
+            this.label6 = new Controls.MyLabel();
             this.arrow9 = new DesktopGuide.Controls.Arrow();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton6 = new DesktopGuide.Controls.MyButton();
@@ -47,7 +47,7 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label15 = new Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();

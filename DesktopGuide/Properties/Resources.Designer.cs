@@ -313,6 +313,16 @@ namespace DesktopGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Farsi_Participant_FECC_Control_Window {
+            get {
+                object obj = ResourceManager.GetObject("Farsi_Participant_FECC_Control_Window", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Farsi_Recent_Events {
             get {
                 object obj = ResourceManager.GetObject("Farsi_Recent_Events", resourceCulture);

@@ -118,131 +118,134 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="InRoomLockedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InRoomLockedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="InRoomPinnedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InRoomPinnedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="InRoomFullSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InRoomFullSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="InRoomSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InRoomSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UserOnlineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UserOnlineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UserOfflineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UserOfflineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="legacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\legacy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UserBusySmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UserBusySmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Main_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Main_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Audio_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Audio _Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Bug_Report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Bug_Report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Camera_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Camera_Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Contact_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Contact_List.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Direct_Call_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Direct_Call_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Holding_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Holding_Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Recent_Events" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Recent_Events.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Dialpad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Dialpad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Invite_People" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Invite_People.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Joining_Room_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Joining_Room_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Message_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Message_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_Devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_Devices.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_Network" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_Network.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_Status" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_Status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_User.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Option_Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Option_Version.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="English_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\English_Login_Page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Farsi_Participant_Control_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Participant_Control_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Farsi_Room_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Room_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Farsi_Option_Network" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_Network.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EmptyRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EmptyRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FullRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FullRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LockedRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LockedRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OccupiedRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OccupiedRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="InRoomLockedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomLockedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PinnedRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PinnedRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Farsi_Joining_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Joining_Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Farsi_Option_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LockedPinnedRoomSmall_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LockedPinnedRoomSmall_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UserOnlineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserOnlineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Farsi_Conference_Chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Conference_Chat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Farsi_Conference_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Farsi_Conference_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Farsi_Option_Devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_Devices.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Farsi_Recording_Option" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Recording_Option.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Farsi_Option_Status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_Status.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Camera_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Camera_Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LockedPinnedRoomSmall_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LockedPinnedRoomSmall_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LockedRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LockedRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Conference_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Conference_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Option" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Farsi_Settings_Tab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Settings_Tab.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomPinnedSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomPinnedSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Option_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_User.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Farsi_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Farsi_Login_Page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EmptyRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmptyRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserBusySmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserBusySmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Room_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Room_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Main_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Main_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Bug_Report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Bug_Report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Dialpad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Dialpad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Holding_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Holding_Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InRoomFullSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InRoomFullSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Message_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Message_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OccupiedRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OccupiedRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Direct_Call_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Direct_Call_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Contact_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Contact_List.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="legacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\legacy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullRoom_01Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FullRoom_01Small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Joining_Conference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Joining_Conference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Audio_Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Audio _Test.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Conference_Chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Conference_Chat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserOfflineSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserOfflineSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Invite_People" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Invite_People.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Recent_Events" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Recent_Events.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Option_Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Option_Version.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Farsi_Joining_Room_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Joining_Room_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="English_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\English_Login_Page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Farsi_Participant_FECC_Control_Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Farsi_Participant_FECC_Control_Window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

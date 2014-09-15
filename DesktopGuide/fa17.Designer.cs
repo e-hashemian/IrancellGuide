@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa17));
-            this.label2 = new Controls.MyLabel();
-            this.label3 = new Controls.MyLabel();
-            this.label9 = new Controls.MyLabel();
-            this.label10 = new Controls.MyLabel();
-            this.label11 = new Controls.MyLabel();
-            this.label13 = new Controls.MyLabel();
+            this.label2 = new DesktopGuide.Controls.MyLabel();
+            this.label3 = new DesktopGuide.Controls.MyLabel();
+            this.label9 = new DesktopGuide.Controls.MyLabel();
+            this.label10 = new DesktopGuide.Controls.MyLabel();
+            this.label11 = new DesktopGuide.Controls.MyLabel();
+            this.label13 = new DesktopGuide.Controls.MyLabel();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton4 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
-            this.label7 = new Controls.MyLabel();
-            this.label8 = new Controls.MyLabel();
-            this.label12 = new Controls.MyLabel();
-            this.label14 = new Controls.MyLabel();
+            this.label7 = new DesktopGuide.Controls.MyLabel();
+            this.label8 = new DesktopGuide.Controls.MyLabel();
+            this.label12 = new DesktopGuide.Controls.MyLabel();
+            this.label14 = new DesktopGuide.Controls.MyLabel();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
@@ -52,17 +52,17 @@
             this.arrow6 = new DesktopGuide.Controls.Arrow();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
-            this.label4 = new Controls.MyLabel();
-            this.label5 = new Controls.MyLabel();
-            this.label6 = new Controls.MyLabel();
-            this.label15 = new Controls.MyLabel();
-            this.label16 = new Controls.MyLabel();
-            this.label17 = new Controls.MyLabel();
-            this.label18 = new Controls.MyLabel();
-            this.label23 = new Controls.MyLabel();
-            this.label19 = new Controls.MyLabel();
+            this.label4 = new DesktopGuide.Controls.MyLabel();
+            this.label5 = new DesktopGuide.Controls.MyLabel();
+            this.label6 = new DesktopGuide.Controls.MyLabel();
+            this.label15 = new DesktopGuide.Controls.MyLabel();
+            this.label16 = new DesktopGuide.Controls.MyLabel();
+            this.label17 = new DesktopGuide.Controls.MyLabel();
+            this.label18 = new DesktopGuide.Controls.MyLabel();
+            this.label23 = new DesktopGuide.Controls.MyLabel();
+            this.label19 = new DesktopGuide.Controls.MyLabel();
             this.arrow9 = new DesktopGuide.Controls.Arrow();
-            this.label20 = new Controls.MyLabel();
+            this.label20 = new DesktopGuide.Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -161,7 +161,7 @@
             this.myButton4._transparentParent = this.main;
             this.myButton4.BackColor = System.Drawing.Color.Transparent;
             this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton4.FlatAppearance.BorderSize = 2;
             this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton4.Location = new System.Drawing.Point(34, 424);
@@ -176,7 +176,7 @@
             this.myButton3._transparentParent = this.main;
             this.myButton3.BackColor = System.Drawing.Color.Transparent;
             this.myButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton3.FlatAppearance.BorderSize = 2;
             this.myButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton3.Location = new System.Drawing.Point(235, 128);
@@ -191,7 +191,7 @@
             this.myButton1._transparentParent = this.main;
             this.myButton1.BackColor = System.Drawing.Color.Transparent;
             this.myButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton1.FlatAppearance.BorderSize = 2;
             this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton1.Location = new System.Drawing.Point(208, 8);
@@ -206,7 +206,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(235, 444);
@@ -313,7 +313,7 @@
             this.arrow3.ForeColor = System.Drawing.Color.SteelBlue;
             this.arrow3.Location = new System.Drawing.Point(276, 503);
             this.arrow3.Name = "arrow3";
-            this.arrow3.Size = new System.Drawing.Size(90, 18);
+            this.arrow3.Size = new System.Drawing.Size(65, 15);
             this.arrow3.TabIndex = 44;
             // 
             // arrow4
@@ -327,7 +327,7 @@
             this.arrow4.ForeColor = System.Drawing.Color.SteelBlue;
             this.arrow4.Location = new System.Drawing.Point(276, 526);
             this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(90, 18);
+            this.arrow4.Size = new System.Drawing.Size(65, 18);
             this.arrow4.TabIndex = 44;
             // 
             // arrow6
@@ -573,25 +573,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox main;
         private Controls.Arrow arrow5;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private Controls.Arrow arrow8;
         private Controls.Arrow arrow7;
         private Controls.Arrow arrow6;
@@ -602,11 +585,28 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.MyButton myButton3;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label20;
         private Controls.Arrow arrow9;
-        private System.Windows.Forms.Label label19;
         private Controls.MyButton myButton4;
+        private Controls.MyLabel label2;
+        private Controls.MyLabel label3;
+        private Controls.MyLabel label9;
+        private Controls.MyLabel label10;
+        private Controls.MyLabel label11;
+        private Controls.MyLabel label13;
+        private Controls.MyLabel label7;
+        private Controls.MyLabel label8;
+        private Controls.MyLabel label12;
+        private Controls.MyLabel label14;
+        private Controls.MyLabel label18;
+        private Controls.MyLabel label17;
+        private Controls.MyLabel label16;
+        private Controls.MyLabel label15;
+        private Controls.MyLabel label6;
+        private Controls.MyLabel label5;
+        private Controls.MyLabel label4;
+        private Controls.MyLabel label23;
+        private Controls.MyLabel label20;
+        private Controls.MyLabel label19;
     }
 }
 

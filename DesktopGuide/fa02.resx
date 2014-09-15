@@ -120,9 +120,6 @@
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="label2.Text" xml:space="preserve">
     <value>با کلیک بر روی این علامت، نرم‌افزار بسته  می‌شود.
 با کلیک کردن بر روی این علامت، از نرم افزار خارج می شوید و صفحه ورود به نرم افزار بار دیگر نمایش داده می شود تا نام کاربر و رمزعبور وارد کنید.
@@ -137,4 +134,7 @@
 برای اطمینان یافتن از صحت کارکرد میکروفون، بلندگو و دوربین‌تان بر روی این قسمت کلیک کنید.
 اگر در حین کار با نرم افزار به خطایی برخوردید، بر روی این قسمت کلیک کنید تا به صورت خودکار ایمیلی برای پشتیبان ارسال و مشکل پیگیری شود.</value>
   </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>26</value>
+  </metadata>
 </root>

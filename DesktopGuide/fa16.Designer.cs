@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa16));
-            this.label2 = new Controls.MyLabel();
-            this.label3 = new Controls.MyLabel();
-            this.label9 = new Controls.MyLabel();
-            this.label10 = new Controls.MyLabel();
-            this.label16 = new Controls.MyLabel();
+            this.label2 = new DesktopGuide.Controls.MyLabel();
+            this.label3 = new DesktopGuide.Controls.MyLabel();
+            this.label9 = new DesktopGuide.Controls.MyLabel();
+            this.label10 = new DesktopGuide.Controls.MyLabel();
+            this.label16 = new DesktopGuide.Controls.MyLabel();
             this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
-            this.label5 = new Controls.MyLabel();
-            this.label7 = new Controls.MyLabel();
-            this.label23 = new Controls.MyLabel();
+            this.label5 = new DesktopGuide.Controls.MyLabel();
+            this.label7 = new DesktopGuide.Controls.MyLabel();
+            this.label23 = new DesktopGuide.Controls.MyLabel();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton5 = new DesktopGuide.Controls.MyButton();
             this.myButton4 = new DesktopGuide.Controls.MyButton();
@@ -46,7 +46,7 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
-            this.label4 = new Controls.MyLabel();
+            this.label4 = new DesktopGuide.Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -184,7 +184,7 @@
             this.main.Controls.Add(this.myButton2);
             this.main.Controls.Add(this.myButton1);
             this.main.Controls.Add(this.arrow1);
-            this.main.Image = ((System.Drawing.Image)(resources.GetObject("main.Image")));
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Joining_Conference;
             this.main.Location = new System.Drawing.Point(19, 81);
             this.main.Name = "main";
             this.main.Size = new System.Drawing.Size(300, 502);
@@ -332,24 +332,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox main;
         private Controls.Arrow arrow1;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.MyButton myButton3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
         private Controls.Arrow arrow3;
         private Controls.Arrow arrow2;
-        private System.Windows.Forms.Label label23;
         private Controls.MyButton myButton4;
         private Controls.MyButton myButton5;
-        private System.Windows.Forms.Label label4;
+        private Controls.MyLabel label2;
+        private Controls.MyLabel label3;
+        private Controls.MyLabel label9;
+        private Controls.MyLabel label10;
+        private Controls.MyLabel label16;
+        private Controls.MyLabel label7;
+        private Controls.MyLabel label5;
+        private Controls.MyLabel label23;
+        private Controls.MyLabel label4;
     }
 }
 

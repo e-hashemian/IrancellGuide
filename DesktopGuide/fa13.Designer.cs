@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa13));
-            this.label2 = new Controls.MyLabel();
-            this.label3 = new Controls.MyLabel();
-            this.label9 = new Controls.MyLabel();
-            this.label10 = new Controls.MyLabel();
+            this.label2 = new DesktopGuide.Controls.MyLabel();
+            this.label3 = new DesktopGuide.Controls.MyLabel();
+            this.label9 = new DesktopGuide.Controls.MyLabel();
+            this.label10 = new DesktopGuide.Controls.MyLabel();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
-            this.label18 = new Controls.MyLabel();
-            this.label19 = new Controls.MyLabel();
-            this.label23 = new Controls.MyLabel();
-            this.label6 = new Controls.MyLabel();
+            this.label18 = new DesktopGuide.Controls.MyLabel();
+            this.label19 = new DesktopGuide.Controls.MyLabel();
+            this.label23 = new DesktopGuide.Controls.MyLabel();
+            this.label6 = new DesktopGuide.Controls.MyLabel();
             this.arrow9 = new DesktopGuide.Controls.Arrow();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton6 = new DesktopGuide.Controls.MyButton();
@@ -47,7 +47,7 @@
             this.myButton2 = new DesktopGuide.Controls.MyButton();
             this.myButton1 = new DesktopGuide.Controls.MyButton();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
-            this.label15 = new Controls.MyLabel();
+            this.label15 = new DesktopGuide.Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -215,9 +215,9 @@
             this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton6.FlatAppearance.BorderSize = 2;
             this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton6.Location = new System.Drawing.Point(141, 420);
+            this.myButton6.Location = new System.Drawing.Point(164, 420);
             this.myButton6.Name = "myButton6";
-            this.myButton6.Size = new System.Drawing.Size(104, 34);
+            this.myButton6.Size = new System.Drawing.Size(81, 34);
             this.myButton6.TabIndex = 49;
             this.myButton6.UseVisualStyleBackColor = false;
             this.myButton6.Click += new System.EventHandler(this.myButton6_Click);
@@ -307,8 +307,8 @@
             this.label15.Size = new System.Drawing.Size(380, 109);
             this.label15.TabIndex = 66;
             this.label15.Text = "از آنجا که دستگاه‌های قدیمی قابل جستجو  و نمایش نیستند، جهت دعوت از آنها برای حضو" +
-    "ر در جلسه‌تان، شماره آنها را در بخش جستجو وارد کنید و سپس دکمه دعوت به جلسه را ب" +
-    "زنید.\r\n";
+                "ر در جلسه‌تان، شماره آنها را در بخش جستجو وارد کنید و سپس دکمه دعوت به جلسه را ب" +
+                "زنید.\r\n";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // fa13
@@ -353,25 +353,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox main;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.Arrow arrow8;
         private Controls.Arrow arrow7;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label23;
         private Controls.Arrow arrow9;
-        private System.Windows.Forms.Label label6;
         private Controls.MyButton myButton3;
         private Controls.MyButton myButton4;
         private Controls.MyButton myButton5;
         private Controls.MyButton myButton6;
-        private System.Windows.Forms.Label label15;
+        private Controls.MyLabel label2;
+        private Controls.MyLabel label3;
+        private Controls.MyLabel label9;
+        private Controls.MyLabel label10;
+        private Controls.MyLabel label19;
+        private Controls.MyLabel label18;
+        private Controls.MyLabel label23;
+        private Controls.MyLabel label6;
+        private Controls.MyLabel label15;
     }
 }
 

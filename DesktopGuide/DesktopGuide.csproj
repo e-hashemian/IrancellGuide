@@ -82,7 +82,9 @@
     <Compile Include="Controls\MyForm.Designer.cs">
       <DependentUpon>MyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\MyLabel.cs" />
+    <Compile Include="Controls\MyLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="fa14_2.cs">
       <SubType>Form</SubType>
     </Compile>
